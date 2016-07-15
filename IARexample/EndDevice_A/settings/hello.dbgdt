@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1307</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>370</Column0><Column1>0</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <PreferedWindows><Position>2</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
+    <WATCH_1><expressions><item>LMIC</item><item>obj</item><item>curTime</item><item>AppData</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>123</item><item>150</item><item>100</item><item>194</item></col-widths></WATCH_1><Find-All-Declarations><ColumnWidth0>470</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>806</ColumnWidth2></Find-All-Declarations><Find-All-References><ColumnWidth0>470</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>806</ColumnWidth2></Find-All-References><QuickWatch><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>111</item><item>150</item><item>100</item><item>100</item></col-widths><QWatchHistory><item>curTime</item><item>AppData</item><item>obj</item><item>elapsedTimer</item><item>value</item><item>LMIC</item><item>frf</item><item>val</item><item>frame</item><item>jacc</item><item>t</item><item>cnt</item></QWatchHistory></QuickWatch><Find-in-Files><ColumnWidth0>403</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>604</ColumnWidth2><ColumnWidth3>268</ColumnWidth3></Find-in-Files></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-27109-6453</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-26586-6462</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-2022-20474</Identity><TabName>Declarations</TabName><Factory>Find-All-Declarations</Factory><Session/></Tab><Tab><Identity>TabID-20905-20530</Identity><TabName>References</TabName><Factory>Find-All-References</Factory><Session/></Tab><Tab><Identity>TabID-11484-20116</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-5089-6456</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>hello</ExpandedNode><ExpandedNode>hello/LMiC</ExpandedNode><ExpandedNode>hello/Libraries</ExpandedNode><ExpandedNode>hello/Libraries/STM32F10x_StdPeriph_Driver</ExpandedNode><ExpandedNode>hello/Libraries/STM32F10x_StdPeriph_Driver/src</ExpandedNode><ExpandedNode>hello/STM32</ExpandedNode><ExpandedNode>hello/STM_Driver</ExpandedNode><ExpandedNode>hello/Utilities</ExpandedNode><ExpandedNode>hello/Utilities/STM32_EVAL</ExpandedNode><ExpandedNode>hello/Utilities/STM32_EVAL/Common</ExpandedNode><ExpandedNode>hello/Utilities/STM32_EVAL/STM3210E_EVAL</ExpandedNode><ExpandedNode>hello/lmic</ExpandedNode><ExpandedNode>hello/src</ExpandedNode><ExpandedNode>hello/src/boards</ExpandedNode><ExpandedNode>hello/src/boards/Bleeper-76</ExpandedNode><ExpandedNode>hello/src/boards/Bleeper-76/board.c</ExpandedNode><ExpandedNode>hello/src/boards/mcu</ExpandedNode><ExpandedNode>hello/src/boards/mcu/stm32</ExpandedNode><ExpandedNode>hello/src/boards/mcu/stm32/STM32F10x_StdPeriph_Driver</ExpandedNode><ExpandedNode>hello/src/radio</ExpandedNode><ExpandedNode>hello/src/radio/sx1276</ExpandedNode><ExpandedNode>hello/stm32f10x</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd3><Tabs><Tab><Identity>TabID-5835-30968</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab><Tab><Identity>TabID-19466-9076</Identity><TabName>Quick Watch</TabName><Factory>QuickWatch</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3><Wnd4><Tabs><Tab><Identity>TabID-25972-11341</Identity><TabName>Disassembly</TabName><Factory>Disassembly</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd4></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\lmic\debug.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>91</YPos2><SelStart2>4390</SelStart2><SelEnd2>4390</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\lmic\platform_config.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>48</YPos2><SelStart2>2880</SelStart2><SelEnd2>2880</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\src\mac\LoRaMac.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>413</YPos2><SelStart2>12486</SelStart2><SelEnd2>12486</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>113</YPos2><SelStart2>15459</SelStart2><SelEnd2>15459</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>117</YPos2><SelStart2>22560</SelStart2><SelEnd2>22560</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\src\boards\Bleeper-76\cmsis\stm32f10x.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1221</YPos2><SelStart2>52438</SelStart2><SelEnd2>52438</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\src\mac\LoRaMac.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>857</YPos2><SelStart2>22375</SelStart2><SelEnd2>22388</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>182</YPos2><SelStart2>10370</SelStart2><SelEnd2>10370</SelEnd2></Tab><ActiveTab>7</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-02685520><key>iaridepm.enu1</key></Toolbar-02685520></Sizes></Row0><Row1><Sizes><Toolbar-171FEF48><key>debuggergui.enu1</key></Toolbar-171FEF48></Sizes></Row1><Row2><Sizes><Toolbar-171FEE80><key>armjlink2.enu1</key></Toolbar-171FEE80></Sizes></Row2></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>719</Bottom><Right>434</Right><x>-2</x><y>-2</y><xscreen>262</xscreen><yscreen>258</yscreen><sizeHorzCX>136458</sizeHorzCX><sizeHorzCY>258517</sizeHorzCY><sizeVertCX>227083</sizeVertCX><sizeVertCY>722445</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>719</Bottom><Right>213</Right><x>-2</x><y>-2</y><xscreen>262</xscreen><yscreen>258</yscreen><sizeHorzCX>136458</sizeHorzCX><sizeHorzCY>258517</sizeHorzCY><sizeVertCX>111979</sizeVertCX><sizeVertCY>722445</sizeVertCY></Rect></Wnd3></Sizes></Row0><Row1><Sizes><Wnd4><Rect><Top>-2</Top><Left>211</Left><Bottom>719</Bottom><Right>491</Right><x>211</x><y>-2</y><xscreen>280</xscreen><yscreen>298</yscreen><sizeHorzCX>145833</sizeHorzCX><sizeHorzCY>298597</sizeHorzCY><sizeVertCX>145833</sizeVertCX><sizeVertCY>722445</sizeVertCY></Rect></Wnd4></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>186</Bottom><Right>1922</Right><x>-2</x><y>-2</y><xscreen>1924</xscreen><yscreen>188</yscreen><sizeHorzCX>1002083</sizeHorzCX><sizeHorzCY>188377</sizeHorzCY><sizeVertCX>136458</sizeVertCX><sizeVertCY>258517</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

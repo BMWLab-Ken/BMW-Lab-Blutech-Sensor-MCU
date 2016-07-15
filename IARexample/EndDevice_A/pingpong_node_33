@@ -1,0 +1,14 @@
+<NotepadPlus>
+    <Session activeView="1">
+        <mainView activeIndex="1">
+            <File firstVisibleLine="119" xOffset="0" scrollWidth="2072" startPos="5306" endPos="5306" selMode="0" lang="C" encoding="-1" filename="C:\Users\jim_hsieh\Desktop\Lora\SEMTECH\IARnode\IARexample\ping-pong\main.c" backupFilePath="" originalFileLastModifTimestamp="1440939481" />
+            <File firstVisibleLine="1461" xOffset="0" scrollWidth="2072" startPos="50358" endPos="50358" selMode="0" lang="C" encoding="-1" filename="C:\Users\jim_hsieh\Desktop\Lora\SEMTECH\IARnode\src\radio\sx1276\sx1276.c" backupFilePath="" originalFileLastModifTimestamp="1440937156">
+                <Mark line="1005" />
+            </File>
+        </mainView>
+        <subView activeIndex="1">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1295" startPos="0" endPos="0" selMode="0" lang="C" encoding="-1" filename="C:\Users\jim_hsieh\Desktop\Lora\SEMTECH\IARnode_3_3\src\radio\sx1276\sx1276.c" backupFilePath="" originalFileLastModifTimestamp="1440941146" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1295" startPos="0" endPos="0" selMode="0" lang="C" encoding="-1" filename="C:\Users\jim_hsieh\Desktop\Lora\SEMTECH\IARnode_3_3\IARexample\ping-pong\main.c" backupFilePath="" originalFileLastModifTimestamp="1440953309" />
+        </subView>
+    </Session>
+</NotepadPlus>

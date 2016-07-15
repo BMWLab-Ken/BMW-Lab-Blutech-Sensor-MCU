@@ -1,0 +1,828 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.1.10123/W32 for ARM                13/Jul/2016  15:12:36
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Exe\hello.out
+#    Map file     =  
+#        F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\List\hello.map
+#    Command line =  
+#        "F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj\aes.o"
+#        "F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj\board.o"
+#        "F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj\cmac.o"
+#        "F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj\debug.o"
+#        "F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj\delay.o"
+#        "F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj\fifo.o"
+#        "F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj\gpio.o"
+#        "F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj\LoRaMac.o"
+#        "F:\IARnode_3_3 -
+#        BLRM\IARexample\EndDevice_A\Debug\Obj\LoRaMacCrypto.o" "F:\IARnode_3_3
+#        - BLRM\IARexample\EndDevice_A\Debug\Obj\main.o" "F:\IARnode_3_3 -
+#        BLRM\IARexample\EndDevice_A\Debug\Obj\misc.o" "F:\IARnode_3_3 -
+#        BLRM\IARexample\EndDevice_A\Debug\Obj\spi-board.o" "F:\IARnode_3_3 -
+#        BLRM\IARexample\EndDevice_A\Debug\Obj\startup_stm32f10x_hd.o"
+#        "F:\IARnode_3_3 -
+#        BLRM\IARexample\EndDevice_A\Debug\Obj\stm32_eval_spi_flash.o"
+#        "F:\IARnode_3_3 -
+#        BLRM\IARexample\EndDevice_A\Debug\Obj\stm32f10x_exti.o"
+#        "F:\IARnode_3_3 -
+#        BLRM\IARexample\EndDevice_A\Debug\Obj\stm32f10x_gpio.o"
+#        "F:\IARnode_3_3 -
+#        BLRM\IARexample\EndDevice_A\Debug\Obj\stm32f10x_pwr.o" "F:\IARnode_3_3
+#        - BLRM\IARexample\EndDevice_A\Debug\Obj\stm32f10x_rcc.o"
+#        "F:\IARnode_3_3 -
+#        BLRM\IARexample\EndDevice_A\Debug\Obj\stm32f10x_rtc.o" "F:\IARnode_3_3
+#        - BLRM\IARexample\EndDevice_A\Debug\Obj\stm32f10x_spi.o"
+#        "F:\IARnode_3_3 -
+#        BLRM\IARexample\EndDevice_A\Debug\Obj\stm32f10x_tim.o" "F:\IARnode_3_3
+#        - BLRM\IARexample\EndDevice_A\Debug\Obj\stm32f10x_usart.o"
+#        "F:\IARnode_3_3 -
+#        BLRM\IARexample\EndDevice_A\Debug\Obj\sx1276-board.o" "F:\IARnode_3_3
+#        - BLRM\IARexample\EndDevice_A\Debug\Obj\sx1276.o" "F:\IARnode_3_3 -
+#        BLRM\IARexample\EndDevice_A\Debug\Obj\system_stm32f10x.o"
+#        "F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj\timer-board.o"
+#        "F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj\timer.o"
+#        "F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj\uart.o"
+#        "F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj\utilities.o"
+#        -o "F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Exe\hello.out"
+#        --map "F:\IARnode_3_3 -
+#        BLRM\IARexample\EndDevice_A\Debug\List\hello.map" --config "C:\Program
+#        Files (x86)\IAR Systems\Embedded Workbench
+#        7.3\arm\config\linker\ST\stm32f103xC.icf" --semihosting --entry
+#        __iar_program_start --redirect __iar_sh_stdout=__iar_sh_stdout_swo
+#        --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0803ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000bfff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x130
+  .intvec            ro code  0x08000000   0x130  startup_stm32f10x_hd.o [1]
+                            - 0x08000130   0x130
+
+"P1":                                     0x7706
+  .text              ro code  0x08000130  0x2004  LoRaMac.o [1]
+  .text              ro code  0x08002134   0x3c4  timer.o [1]
+  .text              ro code  0x080024f8    0x66  ABImemset.o [5]
+  .text              ro code  0x08002560    0x72  utilities.o [1]
+  .text              ro code  0x080025d4   0x208  debug.o [1]
+  .text              ro code  0x080027dc    0x30  I32ToDbl.o [4]
+  .text              ro code  0x0800280c   0x1a2  DblMul.o [4]
+  .text              ro code  0x080029b0    0x58  DblToI32.o [4]
+  .text              ro code  0x08002a08   0x10c  board.o [1]
+  .text              ro code  0x08002b14    0xe8  DblAdd.o [4]
+  .text              ro code  0x08002bfc   0x210  LoRaMacCrypto.o [1]
+  .text              ro code  0x08002e0c   0x270  timer-board.o [1]
+  .text              ro code  0x0800307c   0x134  stm32f10x_rcc.o [1]
+  .text              ro code  0x080031b0   0x198  stm32f10x_gpio.o [1]
+  .text              ro code  0x08003348   0x1c6  stm32f10x_usart.o [1]
+  .text              ro code  0x08003510    0x88  misc.o [1]
+  .text              ro code  0x08003598   0x1f4  sx1276-board.o [1]
+  .text              ro code  0x0800378c    0x2c  stm32f10x_pwr.o [1]
+  .text              ro code  0x080037b8     0xc  delay.o [1]
+  .text              ro code  0x080037c4   0x16c  DblSub.o [4]
+  .text              ro code  0x08003930   0x2c4  cmac.o [1]
+  .text              ro code  0x08003bf4   0x5c6  aes.o [1]
+  .text              ro code  0x080041bc   0x128  stm32f10x_tim.o [1]
+  .text              ro code  0x080042e4    0x5e  ceil.o [4]
+  .text              ro code  0x08004344   0x108  stm32_eval_spi_flash.o [1]
+  .text              ro code  0x0800444c    0xcc  stm32f10x_exti.o [1]
+  .text              ro code  0x08004518    0x7c  stm32f10x_spi.o [1]
+  .text              ro code  0x08004594  0x1be0  sx1276.o [1]
+  .text              ro code  0x08006174   0x256  DblDiv.o [4]
+  .text              ro code  0x080063cc    0x44  round.o [4]
+  .text              ro code  0x08006410    0x2e  DblCmpGe.o [4]
+  .text              ro code  0x08006440    0x5e  floor.o [4]
+  .text              ro code  0x0800649e    0x7a  xdint.o [4]
+  .text              ro code  0x08006518   0x54c  main.o [1]
+  .text              ro code  0x08006a64   0x158  system_stm32f10x.o [1]
+  .rodata            const    0x08006bbc   0x100  aes.o [1]
+  .rodata            const    0x08006cbc   0x100  aes.o [1]
+  .rodata            const    0x08006dbc   0x100  aes.o [1]
+  .rodata            const    0x08006ebc    0xb0  sx1276.o [1]
+  .rodata            const    0x08006f6c    0x50  sx1276-board.o [1]
+  .rodata            const    0x08006fbc    0x48  LoRaMac.o [1]
+  .text              ro code  0x08007004    0x40  zero_init3.o [5]
+  .rodata            const    0x08007044    0x3c  LoRaMac.o [1]
+  .text              ro code  0x08007080    0x38  packbits_init_single.o [5]
+  .rodata            const    0x080070b8    0x30  debug.o [1]
+  .rodata            const    0x080070e8    0x30  sx1276.o [1]
+  .rodata            const    0x08007118    0x2c  LoRaMac.o [1]
+  .rodata            const    0x08007144    0x2c  LoRaMac.o [1]
+  .rodata            const    0x08007170    0x2c  LoRaMac.o [1]
+  .rodata            const    0x0800719c    0x2c  LoRaMac.o [1]
+  .rodata            const    0x080071c8    0x2c  LoRaMac.o [1]
+  .rodata            const    0x080071f4    0x2c  LoRaMac.o [1]
+  .rodata            const    0x08007220    0x28  main.o [1]
+  .text              ro code  0x08007248    0x28  data_init.o [5]
+  .rodata            const    0x08007270    0x24  LoRaMac.o [1]
+  .rodata            const    0x08007294    0x24  LoRaMac.o [1]
+  .rodata            const    0x080072b8    0x24  main.o [1]
+  .iar.init_table    const    0x080072dc    0x20  - Linker created -
+  .rodata            const    0x080072fc    0x20  LoRaMac.o [1]
+  .rodata            const    0x0800731c    0x20  LoRaMac.o [1]
+  .rodata            const    0x0800733c    0x20  LoRaMac.o [1]
+  .rodata            const    0x0800735c    0x20  LoRaMac.o [1]
+  .rodata            const    0x0800737c    0x20  LoRaMac.o [1]
+  .rodata            const    0x0800739c    0x20  LoRaMac.o [1]
+  .rodata            const    0x080073bc    0x20  LoRaMac.o [1]
+  .rodata            const    0x080073dc    0x1c  LoRaMac.o [1]
+  .rodata            const    0x080073f8    0x1c  main.o [1]
+  .text              ro code  0x08007414    0x1a  cmain.o [5]
+  .text              ro code  0x0800742e     0x4  low_level_init.o [3]
+  .text              ro code  0x08007432     0x4  exit.o [3]
+  .text              ro code  0x08007438     0xa  cexit.o [5]
+  .text              ro code  0x08007444    0x14  exit.o [6]
+  .rodata            const    0x08007458    0x18  LoRaMac.o [1]
+  .rodata            const    0x08007470    0x18  LoRaMac.o [1]
+  .rodata            const    0x08007488    0x18  LoRaMac.o [1]
+  .rodata            const    0x080074a0    0x18  LoRaMac.o [1]
+  .rodata            const    0x080074b8    0x18  LoRaMac.o [1]
+  .rodata            const    0x080074d0    0x18  LoRaMac.o [1]
+  .rodata            const    0x080074e8    0x18  main.o [1]
+  .rodata            const    0x08007500    0x18  main.o [1]
+  .rodata            const    0x08007518    0x18  main.o [1]
+  .rodata            const    0x08007530    0x14  debug.o [1]
+  .rodata            const    0x08007544    0x14  LoRaMac.o [1]
+  .rodata            const    0x08007558    0x14  LoRaMac.o [1]
+  .rodata            const    0x0800756c    0x14  LoRaMac.o [1]
+  .rodata            const    0x08007580    0x14  LoRaMac.o [1]
+  .rodata            const    0x08007594    0x14  LoRaMac.o [1]
+  .rodata            const    0x080075a8    0x14  LoRaMac.o [1]
+  .rodata            const    0x080075bc    0x14  LoRaMac.o [1]
+  .rodata            const    0x080075d0    0x14  main.o [1]
+  .rodata            const    0x080075e4    0x14  main.o [1]
+  .rodata            const    0x080075f8    0x14  main.o [1]
+  .rodata            const    0x0800760c    0x10  LoRaMac.o [1]
+  .rodata            const    0x0800761c    0x10  main.o [1]
+  .rodata            const    0x0800762c    0x10  main.o [1]
+  .text              ro code  0x0800763c    0x10  startup_stm32f10x_hd.o [1]
+  .rodata            const    0x0800764c     0xc  LoRaMac.o [1]
+  .text              ro code  0x08007658     0xc  cstartup_M.o [5]
+  .rodata            const    0x08007664     0x8  LoRaMac.o [1]
+  .rodata            const    0x0800766c     0x8  LoRaMac.o [1]
+  .text              ro code  0x08007674     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007678     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800767c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007680     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007684     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007688     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800768c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007690     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007694     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007698     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800769c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076a0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076a4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076a8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076ac     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076b0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076b4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076b8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076bc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076c0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076c4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076c8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076cc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076d0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076d4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076d8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076dc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076e0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076e4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076e8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076ec     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076f0     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076f4     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076f8     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x080076fc     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007700     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007704     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007708     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800770c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007710     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007714     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007718     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800771c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007720     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007724     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007728     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800772c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007730     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007734     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007738     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800773c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007740     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007744     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007748     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800774c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007750     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007754     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007758     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x0800775c     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007760     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007764     0x4  startup_stm32f10x_hd.o [1]
+  .text              ro code  0x08007768     0x4  startup_stm32f10x_hd.o [1]
+  .rodata            const    0x0800776c     0x0  zero_init3.o [5]
+  .rodata            const    0x0800776c     0x0  packbits_init_single.o [5]
+  Initializer bytes  const    0x0800776c    0xca  <for P2-1>
+                            - 0x08007836  0x7706
+
+"P2", part 1 of 3:                         0x172
+  P2-1                        0x20000000   0x172  <Init block>
+    .data            inited   0x20000000     0x8  timer-board.o [1]
+    .data            inited   0x20000008     0x4  LoRaMac.o [1]
+    .data            inited   0x2000000c    0x78  LoRaMac.o [1]
+    .data            inited   0x20000084    0x80  LoRaMac.o [1]
+    .data            inited   0x20000104     0x8  LoRaMac.o [1]
+    .data            inited   0x2000010c    0x10  LoRaMacCrypto.o [1]
+    .data            inited   0x2000011c    0x10  main.o [1]
+    .data            inited   0x2000012c    0x10  main.o [1]
+    .data            inited   0x2000013c    0x10  stm32f10x_rcc.o [1]
+    .data            inited   0x2000014c     0x4  stm32f10x_rcc.o [1]
+    .data            inited   0x20000150    0x18  sx1276.o [1]
+    .data            inited   0x20000168     0x4  utilities.o [1]
+    .data            inited   0x2000016c     0x1  LoRaMac.o [1]
+    .data            inited   0x2000016d     0x1  LoRaMac.o [1]
+    .data            inited   0x2000016e     0x1  LoRaMac.o [1]
+    .data            inited   0x2000016f     0x1  LoRaMac.o [1]
+    .data            inited   0x20000170     0x1  LoRaMac.o [1]
+    .data            inited   0x20000171     0x1  sx1276.o [1]
+                            - 0x20000172   0x172
+
+"P2", part 2 of 3:                        0x1000
+  CSTACK                      0x20000178  0x1000  <Block>
+    CSTACK           uninit   0x20000178  0x1000  <Block tail>
+                            - 0x20001178  0x1000
+
+"P2", part 3 of 3:                         0x680
+  .bss               zero     0x20001178   0x118  LoRaMacCrypto.o [1]
+  .bss               zero     0x20001290   0x100  sx1276.o [1]
+  .bss               zero     0x20001390    0xf4  LoRaMacCrypto.o [1]
+  .bss               zero     0x20001484    0xe8  sx1276.o [1]
+  .bss               zero     0x2000156c    0x40  LoRaMac.o [1]
+  .bss               zero     0x200015ac    0x40  LoRaMac.o [1]
+  .bss               zero     0x200015ec    0x1c  LoRaMac.o [1]
+  .bss               zero     0x20001608    0x18  LoRaMac.o [1]
+  .bss               zero     0x20001620    0x14  LoRaMac.o [1]
+  .bss               zero     0x20001634    0x14  LoRaMac.o [1]
+  .bss               zero     0x20001648    0x14  LoRaMac.o [1]
+  .bss               zero     0x2000165c    0x14  LoRaMac.o [1]
+  .bss               zero     0x20001670    0x14  LoRaMac.o [1]
+  .bss               zero     0x20001684    0x14  LoRaMac.o [1]
+  .bss               zero     0x20001698    0x14  main.o [1]
+  .bss               zero     0x200016ac    0x14  sx1276-board.o [1]
+  .bss               zero     0x200016c0    0x14  sx1276.o [1]
+  .bss               zero     0x200016d4    0x14  sx1276.o [1]
+  .bss               zero     0x200016e8    0x14  sx1276.o [1]
+  .bss               zero     0x200016fc    0x10  LoRaMac.o [1]
+  .bss               zero     0x2000170c    0x10  LoRaMac.o [1]
+  .bss               zero     0x2000171c    0x10  LoRaMac.o [1]
+  .bss               zero     0x2000172c    0x10  LoRaMacCrypto.o [1]
+  .bss               zero     0x2000173c     0x4  LoRaMac.o [1]
+  .bss               zero     0x20001740     0x8  LoRaMac.o [1]
+  .bss               zero     0x20001748     0x8  LoRaMac.o [1]
+  .bss               zero     0x20001750     0x8  LoRaMac.o [1]
+  .bss               zero     0x20001758     0x8  main.o [1]
+  .bss               zero     0x20001760     0x8  main.o [1]
+  .bss               zero     0x20001768     0x8  main.o [1]
+  .bss               zero     0x20001770     0x8  timer-board.o [1]
+  .bss               zero     0x20001778     0x8  timer-board.o [1]
+  .bss               zero     0x20001780     0x4  LoRaMac.o [1]
+  .bss               zero     0x20001784     0x4  LoRaMac.o [1]
+  .bss               zero     0x20001788     0x4  LoRaMac.o [1]
+  .bss               zero     0x2000178c     0x4  LoRaMac.o [1]
+  .bss               zero     0x20001790     0x4  LoRaMac.o [1]
+  .bss               zero     0x20001794     0x4  LoRaMac.o [1]
+  .bss               zero     0x20001798     0x4  LoRaMac.o [1]
+  .bss               zero     0x2000179c     0x4  LoRaMac.o [1]
+  .bss               zero     0x200017a0     0x4  LoRaMac.o [1]
+  .bss               zero     0x200017a4     0x4  LoRaMac.o [1]
+  .bss               zero     0x200017a8     0x4  LoRaMac.o [1]
+  .bss               zero     0x200017ac     0x4  LoRaMac.o [1]
+  .bss               zero     0x200017b0     0x4  LoRaMac.o [1]
+  .bss               zero     0x200017b4     0x4  LoRaMac.o [1]
+  .bss               zero     0x200017b8     0x4  LoRaMac.o [1]
+  .bss               zero     0x200017bc     0x4  main.o [1]
+  .bss               zero     0x200017c0     0x4  main.o [1]
+  .bss               zero     0x200017c4     0x4  main.o [1]
+  .bss               zero     0x200017c8     0x4  sx1276.o [1]
+  .bss               zero     0x200017cc     0x4  timer-board.o [1]
+  .bss               zero     0x200017d0     0x4  timer.o [1]
+  .bss               zero     0x200017d4     0x2  LoRaMac.o [1]
+  .bss               zero     0x200017d6     0x2  LoRaMac.o [1]
+  .bss               zero     0x200017d8     0x2  LoRaMac.o [1]
+  .bss               zero     0x200017da     0x2  LoRaMac.o [1]
+  .bss               zero     0x200017dc     0x1  board.o [1]
+  .bss               zero     0x200017dd     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017de     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017df     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017e0     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017e1     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017e2     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017e3     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017e4     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017e5     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017e6     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017e7     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017e8     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017e9     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017ea     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017eb     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017ec     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017ed     0x1  LoRaMac.o [1]
+  .bss               zero     0x200017ee     0x1  main.o [1]
+  .bss               zero     0x200017ef     0x1  main.o [1]
+  .bss               zero     0x200017f0     0x1  main.o [1]
+  .bss               zero     0x200017f1     0x1  main.o [1]
+  .bss               zero     0x200017f2     0x1  main.o [1]
+  .bss               zero     0x200017f3     0x1  main.o [1]
+  .bss               zero     0x200017f4     0x1  timer.o [1]
+  .bss               zero     0x200017f5     0x1  timer.o [1]
+                            - 0x200017f6   0x67e
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x67e:
+          0x20001178  0x67e
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0xca (54% of destination):
+          0x0800776c   0xca
+    1 destination range, total size 0x172:
+          0x20000000  0x172
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj: [1]
+    LoRaMac.o                 8 196    1 193      726
+    LoRaMacCrypto.o             528        9      556
+    aes.o                     1 478      768
+    board.o                     268                 1
+    cmac.o                      708
+    debug.o                     520       68
+    delay.o                      12
+    main.o                    1 356      285       94
+    misc.o                      136
+    startup_stm32f10x_hd.o      568
+    stm32_eval_spi_flash.o      264
+    stm32f10x_exti.o            204
+    stm32f10x_gpio.o            408
+    stm32f10x_pwr.o              44
+    stm32f10x_rcc.o             308       11       20
+    stm32f10x_spi.o             124
+    stm32f10x_tim.o             296
+    stm32f10x_usart.o           454
+    sx1276-board.o              500       80       20
+    sx1276.o                  7 136      238      577
+    system_stm32f10x.o          344
+    timer-board.o               624        4       28
+    timer.o                     964                 6
+    utilities.o                 114        2        4
+    -------------------------------------------------
+    Total:                   25 554    2 658    2 032
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tl.a: [4]
+    DblAdd.o                    232
+    DblCmpGe.o                   46
+    DblDiv.o                    598
+    DblMul.o                    418
+    DblSub.o                    364
+    DblToI32.o                   88
+    I32ToDbl.o                   48
+    ceil.o                       94
+    floor.o                      94
+    round.o                      68
+    xdint.o                     122
+    -------------------------------------------------
+    Total:                    2 172
+
+rt7M_tl.a: [5]
+    ABImemset.o                 102
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    packbits_init_single.o       56
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                      310
+
+shb_l.a: [6]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         20
+    Linker created                        32    4 096
+-----------------------------------------------------
+    Grand Total:             28 084    2 690    6 128
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x080072dc          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x080072fc          --   Gb  - Linker created -
+?main                   0x08007415         Code  Gb  cmain.o [5]
+ADCPrescTable           0x2000014c    0x4  Data  Lc  stm32f10x_rcc.o [1]
+AES_CMAC_Final          0x08003a47  0x1ae  Code  Gb  cmac.o [1]
+AES_CMAC_Init           0x08003931   0x22  Code  Gb  cmac.o [1]
+AES_CMAC_SetKey         0x08003953   0x12  Code  Gb  cmac.o [1]
+AES_CMAC_Update         0x08003965   0xe2  Code  Gb  cmac.o [1]
+APBAHBPrescTable        0x2000013c   0x10  Data  Lc  stm32f10x_rcc.o [1]
+AckTimeoutRetries       0x2000016f    0x1  Data  Lc  LoRaMac.o [1]
+AckTimeoutRetriesCounter
+                        0x20000170    0x1  Data  Lc  LoRaMac.o [1]
+AckTimeoutRetry         0x200017ed    0x1  Data  Lc  LoRaMac.o [1]
+AckTimeoutTimer         0x20001684   0x14  Data  Lc  LoRaMac.o [1]
+AddMacCommand           0x0800041d   0xf4  Code  Lc  LoRaMac.o [1]
+AdrAckCounter           0x20001790    0x4  Data  Lc  LoRaMac.o [1]
+AdrCtrlOn               0x200017e1    0x1  Data  Lc  LoRaMac.o [1]
+AesCmacCtx              0x20001178  0x118  Data  Lc  LoRaMacCrypto.o [1]
+AesContext              0x20001390   0xf4  Data  Lc  LoRaMacCrypto.o [1]
+AggregatedDCycle        0x200017da    0x2  Data  Lc  LoRaMac.o [1]
+AggregatedLastTxDoneTime
+                        0x20001740    0x8  Data  Lc  LoRaMac.o [1]
+AggregatedTimeOff       0x20001748    0x8  Data  Lc  LoRaMac.o [1]
+AppData                 0x20001758    0x8  Data  Lc  main.o [1]
+AppSKey                 0x2000012c   0x10  Data  Lc  main.o [1]
+BLRM_RevData            0x20001760    0x8  Data  Lc  main.o [1]
+BLRM_UART_DT            0x080065fd   0x38  Code  Lc  main.o [1]
+BLRM_UART_NJ            0x080065cf   0x2e  Code  Lc  main.o [1]
+BLRM_UART_RC            0x080065a1   0x2e  Code  Lc  main.o [1]
+Bands                   0x2000000c   0x78  Data  Lc  LoRaMac.o [1]
+BoardInitMcu            0x08002a09   0x40  Code  Gb  board.o [1]
+BoardMeasureBatterieLevel
+                        0x08002a49   0xba  Code  Gb  board.o [1]
+CSTACK$$Base            0x20000178          --   Gb  - Linker created -
+CSTACK$$Limit           0x20001178          --   Gb  - Linker created -
+Channel                 0x200017ec    0x1  Data  Lc  LoRaMac.o [1]
+ChannelCheckTimer       0x20001634   0x14  Data  Lc  LoRaMac.o [1]
+Channels                0x20000084   0x80  Data  Lc  LoRaMac.o [1]
+ChannelsDatarate        0x200017e7    0x1  Data  Lc  LoRaMac.o [1]
+ChannelsDefaultDatarate
+                        0x200017e8    0x1  Data  Lc  LoRaMac.o [1]
+ChannelsMask            0x200017d8    0x2  Data  Lc  LoRaMac.o [1]
+ChannelsNbRep           0x2000016e    0x1  Data  Lc  LoRaMac.o [1]
+ChannelsNbRepCounter    0x200017e9    0x1  Data  Lc  LoRaMac.o [1]
+ChannelsTxPower         0x2000016d    0x1  Data  Lc  LoRaMac.o [1]
+ComDone                 0x200017f1    0x1  Data  Lc  main.o [1]
+Datarates               0x08007664    0x8  Data  Gb  LoRaMac.o [1]
+DelayMs                 0x080037b9    0xc  Code  Gb  delay.o [1]
+DevAddr                 0x200017bc    0x4  Data  Lc  main.o [1]
+DioIrq                  0x20000150   0x18  Data  Gb  sx1276.o [1]
+DownLinkCounter         0x2000178c    0x4  Data  Lc  LoRaMac.o [1]
+DutyCycleOn             0x200017eb    0x1  Data  Lc  LoRaMac.o [1]
+EXTI0_IRQHandler        0x08003713   0x22  Code  Gb  sx1276-board.o [1]
+EXTI1_IRQHandler        0x08003735   0x22  Code  Gb  sx1276-board.o [1]
+EXTI2_IRQHandler        0x08003757   0x22  Code  Gb  sx1276-board.o [1]
+EXTI_ClearITPendingBit  0x080044fd    0x6  Code  Gb  stm32f10x_exti.o [1]
+EXTI_GetITStatus        0x080044d5   0x28  Code  Gb  stm32f10x_exti.o [1]
+EXTI_Init               0x0800444d   0x88  Code  Gb  stm32f10x_exti.o [1]
+FskBandwidths           0x08006ebc   0xb0  Data  Gb  sx1276.o [1]
+GPIO_EXTILineConfig     0x080032f3   0x50  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_Init               0x080031b1  0x136  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ResetBits          0x080032ed    0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_SetBits            0x080032e7    0x6  Code  Gb  stm32f10x_gpio.o [1]
+GetFskBandwidthRegValue
+                        0x08004795   0x40  Code  Lc  sx1276.o [1]
+GpioIrqs                0x200016ac   0x14  Data  Lc  sx1276-board.o [1]
+HasLoopedThroughMain    0x200017f5    0x1  Data  Gb  timer.o [1]
+IsLoRaMacNetworkJoined  0x200017e0    0x1  Data  Lc  LoRaMac.o [1]
+IsRxWindowsEnabled      0x2000016c    0x1  Data  Lc  LoRaMac.o [1]
+IsUpLinkCounterFixed    0x200017df    0x1  Data  Lc  LoRaMac.o [1]
+JoinAcceptDelay1        0x200017a8    0x4  Data  Lc  LoRaMac.o [1]
+JoinAcceptDelay2        0x200017ac    0x4  Data  Lc  LoRaMac.o [1]
+LoRaMacAppKey           0x2000173c    0x4  Data  Lc  LoRaMac.o [1]
+LoRaMacAppSKey          0x2000170c   0x10  Data  Lc  LoRaMac.o [1]
+LoRaMacBuffer           0x2000156c   0x40  Data  Lc  LoRaMac.o [1]
+LoRaMacBufferPktLen     0x200017d6    0x2  Data  Lc  LoRaMac.o [1]
+LoRaMacComputeMic       0x08002bfd   0xaa  Code  Gb  LoRaMacCrypto.o [1]
+LoRaMacDevAddr          0x20001784    0x4  Data  Lc  LoRaMac.o [1]
+LoRaMacDevNonce         0x200017d4    0x2  Data  Lc  LoRaMac.o [1]
+LoRaMacDeviceClass      0x200017dd    0x1  Data  Lc  LoRaMac.o [1]
+LoRaMacEventFlags       0x2000179c    0x4  Data  Gb  LoRaMac.o [1]
+LoRaMacEventInfo        0x20001608   0x18  Data  Gb  LoRaMac.o [1]
+LoRaMacEvents           0x20001798    0x4  Data  Lc  LoRaMac.o [1]
+LoRaMacEvents           0x200017c4    0x4  Data  Lc  main.o [1]
+LoRaMacInit             0x08000549  0x1e6  Code  Gb  LoRaMac.o [1]
+LoRaMacInitNwkIds       0x08000737   0x38  Code  Gb  LoRaMac.o [1]
+LoRaMacJoinComputeMic   0x08002ce1   0x4c  Code  Gb  LoRaMacCrypto.o [1]
+LoRaMacJoinComputeSKeys
+                        0x08002d6b   0x90  Code  Gb  LoRaMacCrypto.o [1]
+LoRaMacJoinDecrypt      0x08002d2d   0x3e  Code  Gb  LoRaMacCrypto.o [1]
+LoRaMacNetID            0x20001780    0x4  Data  Lc  LoRaMac.o [1]
+LoRaMacNotify           0x08000511   0x38  Code  Lc  LoRaMac.o [1]
+LoRaMacNwkSKey          0x200016fc   0x10  Data  Lc  LoRaMac.o [1]
+LoRaMacPayloadDecrypt   0x08002ca9   0x38  Code  Gb  LoRaMacCrypto.o [1]
+LoRaMacPayloadEncrypt   0x08002ca7    0x2  Code  Gb  LoRaMacCrypto.o [1]
+LoRaMacProcessMacCommands
+                        0x08000b41  0x466  Code  Lc  LoRaMac.o [1]
+LoRaMacRxPayload        0x200015ac   0x40  Data  Lc  LoRaMac.o [1]
+LoRaMacRxWindowSetup    0x08001a09   0x7c  Code  Gb  LoRaMac.o [1]
+LoRaMacSendFrameOnChannel
+                        0x08000839  0x2b2  Code  Gb  LoRaMac.o [1]
+LoRaMacSetAdrOn         0x0800072f    0x8  Code  Gb  LoRaMac.o [1]
+LoRaMacSetChannel       0x08001eed  0x18c  Code  Gb  LoRaMac.o [1]
+LoRaMacSetNextChannel   0x08000131  0x2a2  Code  Lc  LoRaMac.o [1]
+LoRaMacSetPublicNetwork
+                        0x08001e95   0x30  Code  Gb  LoRaMac.o [1]
+LoRaMacState            0x20001794    0x4  Data  Gb  LoRaMac.o [1]
+LowPowerModeEnable      0x200017f4    0x1  Data  Lc  timer.o [1]
+MacCommandsBuffer       0x2000171c   0x10  Data  Lc  LoRaMac.o [1]
+MacCommandsBufferIndex  0x200017e5    0x1  Data  Lc  LoRaMac.o [1]
+MacCommandsInNextTx     0x200017e4    0x1  Data  Lc  LoRaMac.o [1]
+MacStateCheckTimer      0x20001620   0x14  Data  Lc  LoRaMac.o [1]
+MaxDCycle               0x200017ea    0x1  Data  Lc  LoRaMac.o [1]
+MaxRxWindow             0x200017b8    0x4  Data  Lc  LoRaMac.o [1]
+McuInitialized          0x200017dc    0x1  Data  Lc  board.o [1]
+Mic                     0x2000172c   0x10  Data  Lc  LoRaMacCrypto.o [1]
+MicBlockB0              0x2000010c   0x10  Data  Lc  LoRaMacCrypto.o [1]
+MulticastChannels       0x20001788    0x4  Data  Lc  LoRaMac.o [1]
+NVIC_EnableIRQ          0x080025d5   0x14  Code  Lc  debug.o [1]
+NVIC_Init               0x0800351b   0x68  Code  Gb  misc.o [1]
+NVIC_PriorityGroupConfig
+                        0x08003511    0xa  Code  Gb  misc.o [1]
+NodeAckRequested        0x200017e2    0x1  Data  Lc  LoRaMac.o [1]
+NwkSKey                 0x2000011c   0x10  Data  Lc  main.o [1]
+OnAckTimeoutTimerEvent  0x08001e7b   0x14  Code  Lc  LoRaMac.o [1]
+OnChannelCheckTimerEvent
+                        0x080003d3   0x4a  Code  Lc  LoRaMac.o [1]
+OnMacEvent              0x08006795   0x46  Code  Lc  main.o [1]
+OnMacStateCheckTimerEvent
+                        0x08001c19  0x262  Code  Lc  LoRaMac.o [1]
+OnRadioRxDone           0x080011a5  0x78c  Code  Lc  LoRaMac.o [1]
+OnRadioRxError          0x080019bd   0x42  Code  Lc  LoRaMac.o [1]
+OnRadioRxTimeout        0x08001971   0x42  Code  Lc  LoRaMac.o [1]
+OnRadioTxDone           0x08000fb9  0x194  Code  Lc  LoRaMac.o [1]
+OnRadioTxTimeout        0x08001939   0x38  Code  Lc  LoRaMac.o [1]
+OnRxWindow1TimerEvent   0x08001a8d   0x72  Code  Lc  LoRaMac.o [1]
+OnRxWindow2TimerEvent   0x08001b19   0xb4  Code  Lc  LoRaMac.o [1]
+OnTxDelayedTimerEvent   0x08000b01   0x14  Code  Lc  LoRaMac.o [1]
+OnTxNextPacketTimerEvent
+                        0x08006785   0x10  Code  Lc  main.o [1]
+PC_Commend              0x20001768    0x8  Data  Lc  main.o [1]
+PWR_GetFlagStatus       0x08003795   0x1a  Code  Gb  stm32f10x_pwr.o [1]
+PWR_PVDCmd              0x0800378d    0x8  Code  Gb  stm32f10x_pwr.o [1]
+ProcessRxFrame          0x08006595    0xc  Code  Lc  main.o [1]
+PublicNetwork           0x200017de    0x1  Data  Lc  LoRaMac.o [1]
+RCC_APB1PeriphClockCmd  0x08003177   0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08003159   0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x0800307d   0xdc  Code  Gb  stm32f10x_rcc.o [1]
+Radio                   0x08006f6c   0x50  Data  Gb  sx1276-board.o [1]
+RadioEvents             0x200015ec   0x1c  Data  Lc  LoRaMac.o [1]
+RadioEvents             0x200017c8    0x4  Data  Lc  sx1276.o [1]
+RadioRegsInit           0x080070e8   0x30  Data  Gb  sx1276.o [1]
+ReceiveDelay1           0x200017a0    0x4  Data  Lc  LoRaMac.o [1]
+ReceiveDelay2           0x200017a4    0x4  Data  Lc  LoRaMac.o [1]
+Region$$Table$$Base     0x080072dc          --   Gb  - Linker created -
+Region$$Table$$Limit    0x080072fc          --   Gb  - Linker created -
+Rx1DrOffset             0x200017e6    0x1  Data  Lc  LoRaMac.o [1]
+Rx2Channel              0x20000104    0x8  Data  Lc  LoRaMac.o [1]
+RxBuffer                0x20001290  0x100  Data  Lc  sx1276.o [1]
+RxChainCalibration      0x080046fd   0x98  Code  Lc  sx1276.o [1]
+RxDone                  0x200017f2    0x1  Data  Lc  main.o [1]
+RxTimeoutSyncWord       0x200016e8   0x14  Data  Gb  sx1276.o [1]
+RxTimeoutTimer          0x200016d4   0x14  Data  Gb  sx1276.o [1]
+RxWindow1Delay          0x200017b0    0x4  Data  Lc  LoRaMac.o [1]
+RxWindow2Delay          0x200017b4    0x4  Data  Lc  LoRaMac.o [1]
+RxWindowTimer1          0x2000165c   0x14  Data  Lc  LoRaMac.o [1]
+RxWindowTimer2          0x20001670   0x14  Data  Lc  LoRaMac.o [1]
+SPI_Cmd                 0x08004559   0x1c  Code  Gb  stm32f10x_spi.o [1]
+SPI_I2S_GetFlagStatus   0x0800457d   0x18  Code  Gb  stm32f10x_spi.o [1]
+SPI_I2S_ReceiveData     0x08004579    0x4  Code  Gb  stm32f10x_spi.o [1]
+SPI_I2S_SendData        0x08004575    0x4  Code  Gb  stm32f10x_spi.o [1]
+SPI_Init                0x08004519   0x40  Code  Gb  stm32f10x_spi.o [1]
+SX1276                  0x20001484   0xe8  Data  Gb  sx1276.o [1]
+SX1276CheckRfFrequency  0x0800370d    0x6  Code  Gb  sx1276-board.o [1]
+SX1276GetPaSelect       0x080036e9   0x10  Code  Gb  sx1276-board.o [1]
+SX1276GetStatus         0x0800462b    0xa  Code  Gb  sx1276.o [1]
+SX1276GetTimeOnAir      0x08004e5b  0x26c  Code  Gb  sx1276.o [1]
+SX1276Init              0x08004595   0x96  Code  Gb  sx1276.o [1]
+SX1276IoInit            0x08003599    0x8  Code  Gb  sx1276-board.o [1]
+SX1276IoIrqInit         0x080035a1  0x148  Code  Gb  sx1276-board.o [1]
+SX1276IsChannelFree     0x08004677   0x42  Code  Gb  sx1276.o [1]
+SX1276OnDio0Irq         0x08005825  0x420  Code  Gb  sx1276.o [1]
+SX1276OnDio1Irq         0x08005c59  0x1ec  Code  Gb  sx1276.o [1]
+SX1276OnDio2Irq         0x08005e4d  0x124  Code  Gb  sx1276.o [1]
+SX1276OnDio3Irq         0x08005f71   0x6c  Code  Gb  sx1276.o [1]
+SX1276OnDio4Irq         0x08005fdd   0x28  Code  Gb  sx1276.o [1]
+SX1276OnTimeoutIrq      0x0800573f   0xda  Code  Gb  sx1276.o [1]
+SX1276Random            0x080046b9   0x44  Code  Gb  sx1276.o [1]
+SX1276Read              0x080056d9    0xe  Code  Gb  sx1276.o [1]
+SX1276ReadBuffer        0x080056ff   0x18  Code  Gb  sx1276.o [1]
+SX1276ReadFifo          0x0800572b   0x14  Code  Gb  sx1276.o [1]
+SX1276ReadRssi          0x08005591   0x58  Code  Gb  sx1276.o [1]
+SX1276Reset             0x080055e9   0x1c  Code  Gb  sx1276.o [1]
+SX1276Send              0x080050c7  0x146  Code  Gb  sx1276.o [1]
+SX1276SetAntSw          0x080036f9   0x14  Code  Gb  sx1276-board.o [1]
+SX1276SetChannel        0x08004635   0x42  Code  Gb  sx1276.o [1]
+SX1276SetModem          0x0800564d   0x78  Code  Gb  sx1276.o [1]
+SX1276SetOpMode         0x08005605   0x48  Code  Gb  sx1276.o [1]
+SX1276SetRx             0x0800526d  0x212  Code  Gb  sx1276.o [1]
+SX1276SetRxConfig       0x080047d5  0x308  Code  Gb  sx1276.o [1]
+SX1276SetSleep          0x0800520d   0x20  Code  Gb  sx1276.o [1]
+SX1276SetStby           0x0800522d   0x20  Code  Gb  sx1276.o [1]
+SX1276SetTx             0x08005485   0xbe  Code  Gb  sx1276.o [1]
+SX1276SetTxConfig       0x08004add  0x37e  Code  Gb  sx1276.o [1]
+SX1276StartCad          0x08005543   0x42  Code  Gb  sx1276.o [1]
+SX1276Write             0x080056c5   0x14  Code  Gb  sx1276.o [1]
+SX1276WriteBuffer       0x080056e7   0x18  Code  Gb  sx1276.o [1]
+SX1276WriteFifo         0x08005717   0x14  Code  Gb  sx1276.o [1]
+SetSysClock             0x08006ab9    0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockTo72         0x08006ac1   0xe0  Code  Lc  system_stm32f10x.o [1]
+SrvAckRequested         0x200017e3    0x1  Data  Lc  LoRaMac.o [1]
+State                   0x200017f3    0x1  Data  Gb  main.o [1]
+SystemInit              0x08006a65   0x54  Code  Gb  system_stm32f10x.o [1]
+TIM2_IRQHandler         0x0800300b   0x38  Code  Gb  timer-board.o [1]
+TIM3_IRQHandler         0x08003043   0x1c  Code  Gb  timer-board.o [1]
+TIM_ClearITPendingBit   0x080042b5    0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                 0x08004251   0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_GetITStatus         0x08004283   0x32  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig            0x0800426d   0x16  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit        0x080041bd   0x94  Code  Gb  stm32f10x_tim.o [1]
+TimeoutCntValue         0x20001778    0x8  Data  Gb  timer-board.o [1]
+TimerDelayCounter       0x200017cc    0x4  Data  Gb  timer-board.o [1]
+TimerExists             0x0800242f   0x1a  Code  Lc  timer.o [1]
+TimerGetCurrentTime     0x08002483   0x12  Code  Gb  timer.o [1]
+TimerGetValue           0x08002471   0x12  Code  Gb  timer.o [1]
+TimerHwDelayMs          0x08002f3d   0x3c  Code  Gb  timer-board.o [1]
+TimerHwEnterLowPowerStopMode
+                        0x08003079    0x4  Code  Gb  timer-board.o [1]
+TimerHwGetDelayValue    0x08002fd5    0xe  Code  Gb  timer-board.o [1]
+TimerHwGetElapsedTime   0x08002f79   0x28  Code  Gb  timer-board.o [1]
+TimerHwGetMinimumTimeout
+                        0x08002eeb   0x10  Code  Gb  timer-board.o [1]
+TimerHwGetTime          0x08002fb9   0x1c  Code  Gb  timer-board.o [1]
+TimerHwGetTimerValue    0x08002fa1   0x18  Code  Gb  timer-board.o [1]
+TimerHwInit             0x08002e0d   0xde  Code  Gb  timer-board.o [1]
+TimerHwStart            0x08002efb   0x42  Code  Gb  timer-board.o [1]
+TimerIncrementDelayCounter
+                        0x08002ffb   0x10  Code  Gb  timer-board.o [1]
+TimerIncrementTickCounter
+                        0x08002fe3   0x18  Code  Gb  timer-board.o [1]
+TimerInit               0x0800213d   0x14  Code  Gb  timer.o [1]
+TimerInsertNewHeadTimer
+                        0x08002259   0x2c  Code  Lc  timer.o [1]
+TimerInsertTimer        0x080021e5   0x74  Code  Lc  timer.o [1]
+TimerIrqHandler         0x08002285   0xa6  Code  Gb  timer.o [1]
+TimerListHead           0x200017d0    0x4  Data  Lc  timer.o [1]
+TimerLowPowerHandler    0x080024af   0x3c  Code  Gb  timer.o [1]
+TimerSetLowPowerEnable  0x08002135    0x8  Code  Gb  timer.o [1]
+TimerSetTimeout         0x08002495   0x1a  Code  Lc  timer.o [1]
+TimerSetValue           0x08002449   0x28  Code  Gb  timer.o [1]
+TimerStart              0x08002151   0x94  Code  Gb  timer.o [1]
+TimerStop               0x0800232b  0x104  Code  Gb  timer.o [1]
+TimerTickCounter        0x20000000    0x8  Data  Gb  timer-board.o [1]
+TimerTickCounterContext
+                        0x20001770    0x8  Data  Lc  timer-board.o [1]
+TxDelayedTimer          0x20001648   0x14  Data  Lc  LoRaMac.o [1]
+TxDutyCycleTime         0x200017c0    0x4  Data  Lc  main.o [1]
+TxNextPacketTimer       0x20001698   0x14  Data  Lc  main.o [1]
+TxPowers                0x0800766c    0x8  Data  Gb  LoRaMac.o [1]
+TxTimeOnAir             0x20001750    0x8  Data  Gb  LoRaMac.o [1]
+TxTimeoutTimer          0x200016c0   0x14  Data  Gb  sx1276.o [1]
+USART1_IRQHandler       0x08006519   0x3e  Code  Gb  main.o [1]
+USART3_IRQHandler       0x08006557   0x3e  Code  Gb  main.o [1]
+USART_Cmd               0x0800342d   0x1c  Code  Gb  stm32f10x_usart.o [1]
+USART_GetITStatus       0x0800349f   0x70  Code  Gb  stm32f10x_usart.o [1]
+USART_ITConfig          0x08003449   0x56  Code  Gb  stm32f10x_usart.o [1]
+USART_Init              0x08003349   0xde  Code  Gb  stm32f10x_usart.o [1]
+UpLinkCounter           0x20000008    0x4  Data  Lc  LoRaMac.o [1]
+__aeabi_cdrcmple        0x08006411         Code  Gb  DblCmpGe.o [4]
+__aeabi_d2iz            0x080029b1         Code  Gb  DblToI32.o [4]
+__aeabi_d2uiz           0x080029dd         Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x08002b15         Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x08006175         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0800280d         Code  Gb  DblMul.o [4]
+__aeabi_i2d             0x080027dd         Code  Gb  I32ToDbl.o [4]
+__aeabi_memset          0x080024f9         Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x080027f1         Code  Gb  I32ToDbl.o [4]
+__cmain                 0x08007415         Code  Gb  cmain.o [5]
+__exit                  0x08007445   0x14  Code  Gb  exit.o [6]
+__iar_Dint              0x0800649f   0x7a  Code  Gb  xdint.o [4]
+__iar_Memset            0x080024f9         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x08002501         Code  Gb  ABImemset.o [5]
+__iar_ceil              0x080042e5         Code  Gb  ceil.o [4]
+__iar_ceill             0x080042e5         Code  Gb  ceil.o [4]
+__iar_d2uiz             0x080029e9         Code  Gb  DblToI32.o [4]
+__iar_dadd              0x08002b29         Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x08007249   0x28  Code  Gb  data_init.o [5]
+__iar_dsub              0x080037c5         Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x080037d7         Code  Gb  DblSub.o [4]
+__iar_floor             0x08006441         Code  Gb  floor.o [4]
+__iar_floorl            0x08006441         Code  Gb  floor.o [4]
+__iar_packbits_init_single3
+                        0x08007081   0x38  Code  Gb  packbits_init_single.o [5]
+__iar_program_start     0x08007659         Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x080027f5         Code  Gb  I32ToDbl.o [4]
+__iar_zero_init3        0x08007005   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0800742f    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f10x_hd.o [1]
+_call_main              0x08007421         Code  Gb  cmain.o [5]
+_exit                   0x08007439         Code  Gb  cexit.o [5]
+_main                   0x0800742b         Code  Gb  cmain.o [5]
+add_round_key           0x08003c65   0x10  Code  Lc  aes.o [1]
+aes_encrypt             0x0800415d   0x5e  Code  Gb  aes.o [1]
+aes_set_key             0x08003fd5  0x17a  Code  Gb  aes.o [1]
+ceil                    0x080042e5         Code  Gb  ceil.o [4]
+ceill                   0x080042e5         Code  Gb  ceil.o [4]
+copy_and_key            0x08003c3f   0x26  Code  Lc  aes.o [1]
+copy_block              0x08003bf5   0x12  Code  Lc  aes.o [1]
+copy_block_nn           0x08003c07   0x16  Code  Lc  aes.o [1]
+data_len                0x200017f0    0x1  Data  Gb  main.o [1]
+debug_buf               0x08002743   0x28  Code  Gb  debug.o [1]
+debug_buf_UART1         0x0800276b   0x1c  Code  Gb  debug.o [1]
+debug_char              0x08002703   0x10  Code  Gb  debug.o [1]
+debug_char_UART1        0x08002713   0x10  Code  Gb  debug.o [1]
+debug_hex               0x08002723   0x20  Code  Gb  debug.o [1]
+debug_init              0x080025e9  0x11a  Code  Gb  debug.o [1]
+debug_str               0x080027a3   0x16  Code  Gb  debug.o [1]
+debug_uint              0x08002787   0x1c  Code  Gb  debug.o [1]
+exit                    0x08007433    0x4  Code  Gb  exit.o [3]
+floor                   0x08006441         Code  Gb  floor.o [4]
+floorl                  0x08006441         Code  Gb  floor.o [4]
+gfm2_sbox               0x08006cbc  0x100  Data  Lc  aes.o [1]
+gfm3_sbox               0x08006dbc  0x100  Data  Lc  aes.o [1]
+hal_pin_rst             0x08006027   0x56  Code  Gb  sx1276.o [1]
+hex2dec                 0x08006635  0x150  Code  Lc  main.o [1]
+hw_set_pin              0x0800600d   0x1a  Code  Gb  sx1276.o [1]
+len                     0x200017ef    0x1  Data  Gb  main.o [1]
+main                    0x080067db  0x20a  Code  Gb  main.o [1]
+memcpy1                 0x080025ab   0x16  Code  Gb  utilities.o [1]
+memset1                 0x080025c1   0x12  Code  Gb  utilities.o [1]
+mix_sub_columns         0x08003d27  0x2ae  Code  Lc  aes.o [1]
+next                    0x20000168    0x4  Data  Lc  utilities.o [1]
+rand                    0x08002561   0x20  Code  Gb  utilities.o [1]
+randr                   0x08002591   0x1a  Code  Gb  utilities.o [1]
+readBuf                 0x08006111   0x3a  Code  Lc  sx1276.o [1]
+readReg                 0x080060ad   0x2a  Code  Gb  sx1276.o [1]
+round                   0x080063cd   0x44  Code  Gb  round.o [4]
+rsp_len                 0x200017ee    0x1  Data  Gb  main.o [1]
+sFLASH_Init             0x08004345   0x64  Code  Gb  stm32_eval_spi_flash.o [1]
+sFLASH_LowLevel_Init    0x080043db   0x66  Code  Gb  stm32_eval_spi_flash.o [1]
+sFLASH_SendByte         0x080043a9   0x32  Code  Gb  stm32_eval_spi_flash.o [1]
+sbox                    0x08006bbc  0x100  Data  Lc  aes.o [1]
+shift_sub_rows          0x08003c75   0xb2  Code  Lc  aes.o [1]
+srand                   0x08002581    0x6  Code  Gb  utilities.o [1]
+writeBuf                0x080060d7   0x3a  Code  Lc  sx1276.o [1]
+writeReg                0x0800607d   0x2a  Code  Gb  sx1276.o [1]
+xor_block               0x08003c1d   0x22  Code  Lc  aes.o [1]
+
+
+[1] = F:\IARnode_3_3 - BLRM\IARexample\EndDevice_A\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  28 084 bytes of readonly  code memory
+   2 690 bytes of readonly  data memory
+   6 128 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

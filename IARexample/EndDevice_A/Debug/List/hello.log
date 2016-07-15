@@ -1,0 +1,1125 @@
+              definition:  __as_table_start
+              definition:  __as_entries_start
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\aes.o.
+              definition:  AESAUX
+              definition:  AESKEY
+              definition:  os_aes
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\debug.o.
+              reference :  GPIO_Init
+              reference :  RCC_APB2PeriphClockCmd
+              reference :  USART_Cmd
+              reference :  USART_Init
+              definition:  debug_buf
+              definition:  debug_char
+              definition:  debug_event
+              definition:  debug_hex
+              definition:  debug_init
+              definition:  debug_str
+              definition:  debug_uint
+              definition:  debug_val
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\hal.o.
+              reference :  GPIO_Init
+              reference :  GPIO_SetBits
+              reference :  NVIC_Init
+              reference :  RCC_APB2PeriphClockCmd
+              reference :  SystemCoreClock
+              reference :  TIM_Cmd
+              reference :  TIM_ITConfig
+              reference :  TIM_OC1Init
+              reference :  TIM_OC1PreloadConfig
+              reference :  TIM_OC2Init
+              reference :  TIM_OC2PreloadConfig
+              reference :  TIM_TimeBaseInit
+              reference :  __aeabi_memset
+              reference :  hw_set_pin
+              reference :  radio_irq_handler
+              definition:  EXTI0_IRQHandler
+              definition:  EXTI15_10_IRQHandler
+              definition:  EXTI1_IRQHandler
+              definition:  EXTI2_IRQHandler
+              definition:  EXTI3_IRQHandler
+              definition:  EXTI4_IRQHandler
+              definition:  EXTI9_5_IRQHandler
+              definition:  EXTI_IRQHandler
+              definition:  NVIC_Configuration
+              definition:  SPI_Cmd
+              definition:  SPI_Init
+              definition:  TIM4_Configuration
+              definition:  TIM4_IRQHandler
+              definition:  hal_checkTimer
+              definition:  hal_disableIRQs
+              definition:  hal_enableIRQs
+              definition:  hal_failed
+              definition:  hal_init
+              definition:  hal_pin_nss
+              definition:  hal_pin_rst
+              definition:  hal_pin_rxtx
+              definition:  hal_spi
+              definition:  hal_ticks
+              definition:  hal_waitUntil
+              definition:  jim_index
+              definition:  sFLASH_Init
+              definition:  sFLASH_LowLevel_Init
+              definition:  __iar_cc.IRQn.9VhbHojbn90
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\hw.o.
+              definition:  hw_set_pin
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\lmic.o.
+              reference :  AESAUX
+              reference :  AESKEY
+              reference :  __aeabi_ldivmod
+              reference :  __aeabi_memcpy
+              reference :  __aeabi_memset
+              reference :  hal_failed
+              reference :  onEvent
+              reference :  os_aes
+              reference :  os_clearCallback
+              reference :  os_getArtEui
+              reference :  os_getDevEui
+              reference :  os_getDevKey
+              reference :  os_getTime
+              reference :  os_radio
+              reference :  os_setCallback
+              reference :  os_setTimedCallback
+              reference :  radio_rand1
+              definition:  LMIC
+              definition:  LMIC_clrTxData
+              definition:  LMIC_disableChannel
+              definition:  LMIC_disableTracking
+              definition:  LMIC_enableTracking
+              definition:  LMIC_init
+              definition:  LMIC_reset
+              definition:  LMIC_sendAlive
+              definition:  LMIC_setAdrMode
+              definition:  LMIC_setDrTxpow
+              definition:  LMIC_setLinkCheckMode
+              definition:  LMIC_setPingable
+              definition:  LMIC_setSession
+              definition:  LMIC_setTxData
+              definition:  LMIC_setTxData2
+              definition:  LMIC_setupBand
+              definition:  LMIC_setupChannel
+              definition:  LMIC_shutdown
+              definition:  LMIC_startJoining
+              definition:  LMIC_stopPingable
+              definition:  LMIC_tryRejoin
+              definition:  _DR2RPS_CRC
+              definition:  calcAirTime
+              definition:  decDR
+              definition:  dndr2rps
+              definition:  getBw
+              definition:  getCr
+              definition:  getIh
+              definition:  getNocrc
+              definition:  getSensitivity
+              definition:  getSf
+              definition:  lowerDR
+              definition:  maxFrameLens
+              definition:  os_crc16
+              definition:  os_getBattLevel
+              definition:  os_rlsbf2
+              definition:  os_rlsbf4
+              definition:  os_rmsbf4
+              definition:  os_wlsbf2
+              definition:  os_wlsbf4
+              definition:  os_wmsbf4
+              definition:  setCr
+              definition:  setIh
+              definition:  setNocrc
+              definition:  updr2rps
+              definition:  validDR
+              definition:  __iar_cc._ev_t.B7R47XBFpp8
+              definition:  __iar_cc..XUZoe07i5i8
+              definition:  __iar_cc..Nwiplm5j$i_
+              definition:  __iar_cc..XtayrRZ8G00
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\main.o.
+              reference :  debug_init
+              reference :  debug_str
+              reference :  os_init
+              definition:  main
+              definition:  onEvent
+              definition:  os_getArtEui
+              definition:  os_getDevEui
+              definition:  os_getDevKey
+              definition:  __iar_cc._ev_t.B7R47XBFpp8
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\misc.o.
+              definition:  NVIC_Init
+              definition:  NVIC_PriorityGroupConfig
+              definition:  NVIC_SetVectorTable
+              definition:  NVIC_SystemLPConfig
+              definition:  SysTick_CLKSourceConfig
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\oslmic.o.
+              reference :  LMIC_init
+              reference :  __aeabi_memset
+              reference :  hal_checkTimer
+              reference :  hal_disableIRQs
+              reference :  hal_enableIRQs
+              reference :  hal_init
+              reference :  hal_sleep
+              reference :  hal_ticks
+              reference :  radio_init
+              definition:  os_clearCallback
+              definition:  os_getTime
+              definition:  os_init
+              definition:  os_runloop
+              definition:  os_setCallback
+              definition:  os_setTimedCallback
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\radio.o.
+              reference :  LMIC
+              reference :  __aeabi_uldivmod
+              reference :  hal_disableIRQs
+              reference :  hal_enableIRQs
+              reference :  hal_failed
+              reference :  hal_pin_nss
+              reference :  hal_pin_rst
+              reference :  hal_pin_rxtx
+              reference :  hal_spi
+              reference :  hal_waitUntil
+              reference :  os_aes
+              reference :  os_getTime
+              reference :  os_setCallback
+              definition:  getBw
+              definition:  getCr
+              definition:  getIh
+              definition:  getNocrc
+              definition:  getSf
+              definition:  os_radio
+              definition:  radio_init
+              definition:  radio_irq_handler
+              definition:  radio_rand1
+              definition:  radio_rssi
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\startup_stm32f10x_hd.o.
+              reference :  __iar_program_start
+              reference :  SystemInit
+              definition:  __vector_table
+              weak def  :  Reset_Handler
+              weak def  :  NMI_Handler
+              weak def  :  HardFault_Handler
+              weak def  :  MemManage_Handler
+              weak def  :  BusFault_Handler
+              weak def  :  UsageFault_Handler
+              weak def  :  SVC_Handler
+              weak def  :  DebugMon_Handler
+              weak def  :  PendSV_Handler
+              weak def  :  SysTick_Handler
+              weak def  :  WWDG_IRQHandler
+              weak def  :  PVD_IRQHandler
+              weak def  :  TAMPER_IRQHandler
+              weak def  :  RTC_IRQHandler
+              weak def  :  FLASH_IRQHandler
+              weak def  :  RCC_IRQHandler
+              weak def  :  EXTI0_IRQHandler
+              weak def  :  EXTI1_IRQHandler
+              weak def  :  EXTI2_IRQHandler
+              weak def  :  EXTI3_IRQHandler
+              weak def  :  EXTI4_IRQHandler
+              weak def  :  DMA1_Channel1_IRQHandler
+              weak def  :  DMA1_Channel2_IRQHandler
+              weak def  :  DMA1_Channel3_IRQHandler
+              weak def  :  DMA1_Channel4_IRQHandler
+              weak def  :  DMA1_Channel5_IRQHandler
+              weak def  :  DMA1_Channel6_IRQHandler
+              weak def  :  DMA1_Channel7_IRQHandler
+              weak def  :  ADC1_2_IRQHandler
+              weak def  :  USB_HP_CAN1_TX_IRQHandler
+              weak def  :  USB_LP_CAN1_RX0_IRQHandler
+              weak def  :  CAN1_RX1_IRQHandler
+              weak def  :  CAN1_SCE_IRQHandler
+              weak def  :  EXTI9_5_IRQHandler
+              weak def  :  TIM1_BRK_IRQHandler
+              weak def  :  TIM1_UP_IRQHandler
+              weak def  :  TIM1_TRG_COM_IRQHandler
+              weak def  :  TIM1_CC_IRQHandler
+              weak def  :  TIM2_IRQHandler
+              weak def  :  TIM3_IRQHandler
+              weak def  :  TIM4_IRQHandler
+              weak def  :  I2C1_EV_IRQHandler
+              weak def  :  I2C1_ER_IRQHandler
+              weak def  :  I2C2_EV_IRQHandler
+              weak def  :  I2C2_ER_IRQHandler
+              weak def  :  SPI1_IRQHandler
+              weak def  :  SPI2_IRQHandler
+              weak def  :  USART1_IRQHandler
+              weak def  :  USART2_IRQHandler
+              weak def  :  USART3_IRQHandler
+              weak def  :  EXTI15_10_IRQHandler
+              weak def  :  RTCAlarm_IRQHandler
+              weak def  :  USBWakeUp_IRQHandler
+              weak def  :  TIM8_BRK_IRQHandler
+              weak def  :  TIM8_UP_IRQHandler
+              weak def  :  TIM8_TRG_COM_IRQHandler
+              weak def  :  TIM8_CC_IRQHandler
+              weak def  :  ADC3_IRQHandler
+              weak def  :  FSMC_IRQHandler
+              weak def  :  SDIO_IRQHandler
+              weak def  :  TIM5_IRQHandler
+              weak def  :  SPI3_IRQHandler
+              weak def  :  UART4_IRQHandler
+              weak def  :  UART5_IRQHandler
+              weak def  :  TIM6_IRQHandler
+              weak def  :  TIM7_IRQHandler
+              weak def  :  DMA2_Channel1_IRQHandler
+              weak def  :  DMA2_Channel2_IRQHandler
+              weak def  :  DMA2_Channel3_IRQHandler
+              weak def  :  DMA2_Channel4_5_IRQHandler
+              reference :  CSTACK$$Limit
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\stm32f10x_gpio.o.
+              reference :  RCC_APB2PeriphResetCmd
+              definition:  GPIO_AFIODeInit
+              definition:  GPIO_DeInit
+              definition:  GPIO_ETH_MediaInterfaceConfig
+              definition:  GPIO_EXTILineConfig
+              definition:  GPIO_EventOutputCmd
+              definition:  GPIO_EventOutputConfig
+              definition:  GPIO_Init
+              definition:  GPIO_PinLockConfig
+              definition:  GPIO_PinRemapConfig
+              definition:  GPIO_ReadInputData
+              definition:  GPIO_ReadInputDataBit
+              definition:  GPIO_ReadOutputData
+              definition:  GPIO_ReadOutputDataBit
+              definition:  GPIO_ResetBits
+              definition:  GPIO_SetBits
+              definition:  GPIO_StructInit
+              definition:  GPIO_Write
+              definition:  GPIO_WriteBit
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\stm32f10x_rcc.o.
+              definition:  RCC_ADCCLKConfig
+              definition:  RCC_AHBPeriphClockCmd
+              definition:  RCC_APB1PeriphClockCmd
+              definition:  RCC_APB1PeriphResetCmd
+              definition:  RCC_APB2PeriphClockCmd
+              definition:  RCC_APB2PeriphResetCmd
+              definition:  RCC_AdjustHSICalibrationValue
+              definition:  RCC_BackupResetCmd
+              definition:  RCC_ClearFlag
+              definition:  RCC_ClearITPendingBit
+              definition:  RCC_ClockSecuritySystemCmd
+              definition:  RCC_DeInit
+              definition:  RCC_GetClocksFreq
+              definition:  RCC_GetFlagStatus
+              definition:  RCC_GetITStatus
+              definition:  RCC_GetSYSCLKSource
+              definition:  RCC_HCLKConfig
+              definition:  RCC_HSEConfig
+              definition:  RCC_HSICmd
+              definition:  RCC_ITConfig
+              definition:  RCC_LSEConfig
+              definition:  RCC_LSICmd
+              definition:  RCC_MCOConfig
+              definition:  RCC_PCLK1Config
+              definition:  RCC_PCLK2Config
+              definition:  RCC_PLLCmd
+              definition:  RCC_PLLConfig
+              definition:  RCC_RTCCLKCmd
+              definition:  RCC_RTCCLKConfig
+              definition:  RCC_SYSCLKConfig
+              definition:  RCC_USBCLKConfig
+              definition:  RCC_WaitForHSEStartUp
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\stm32f10x_tim.o.
+              reference :  RCC_APB1PeriphResetCmd
+              reference :  RCC_APB2PeriphResetCmd
+              definition:  TIM_ARRPreloadConfig
+              definition:  TIM_BDTRConfig
+              definition:  TIM_BDTRStructInit
+              definition:  TIM_CCPreloadControl
+              definition:  TIM_CCxCmd
+              definition:  TIM_CCxNCmd
+              definition:  TIM_ClearFlag
+              definition:  TIM_ClearITPendingBit
+              definition:  TIM_ClearOC1Ref
+              definition:  TIM_ClearOC2Ref
+              definition:  TIM_ClearOC3Ref
+              definition:  TIM_ClearOC4Ref
+              definition:  TIM_Cmd
+              definition:  TIM_CounterModeConfig
+              definition:  TIM_CtrlPWMOutputs
+              definition:  TIM_DMACmd
+              definition:  TIM_DMAConfig
+              definition:  TIM_DeInit
+              definition:  TIM_ETRClockMode1Config
+              definition:  TIM_ETRClockMode2Config
+              definition:  TIM_ETRConfig
+              definition:  TIM_EncoderInterfaceConfig
+              definition:  TIM_ForcedOC1Config
+              definition:  TIM_ForcedOC2Config
+              definition:  TIM_ForcedOC3Config
+              definition:  TIM_ForcedOC4Config
+              definition:  TIM_GenerateEvent
+              definition:  TIM_GetCapture1
+              definition:  TIM_GetCapture2
+              definition:  TIM_GetCapture3
+              definition:  TIM_GetCapture4
+              definition:  TIM_GetCounter
+              definition:  TIM_GetFlagStatus
+              definition:  TIM_GetITStatus
+              definition:  TIM_GetPrescaler
+              definition:  TIM_ICInit
+              definition:  TIM_ICStructInit
+              definition:  TIM_ITConfig
+              definition:  TIM_ITRxExternalClockConfig
+              definition:  TIM_InternalClockConfig
+              definition:  TIM_OC1FastConfig
+              definition:  TIM_OC1Init
+              definition:  TIM_OC1NPolarityConfig
+              definition:  TIM_OC1PolarityConfig
+              definition:  TIM_OC1PreloadConfig
+              definition:  TIM_OC2FastConfig
+              definition:  TIM_OC2Init
+              definition:  TIM_OC2NPolarityConfig
+              definition:  TIM_OC2PolarityConfig
+              definition:  TIM_OC2PreloadConfig
+              definition:  TIM_OC3FastConfig
+              definition:  TIM_OC3Init
+              definition:  TIM_OC3NPolarityConfig
+              definition:  TIM_OC3PolarityConfig
+              definition:  TIM_OC3PreloadConfig
+              definition:  TIM_OC4FastConfig
+              definition:  TIM_OC4Init
+              definition:  TIM_OC4PolarityConfig
+              definition:  TIM_OC4PreloadConfig
+              definition:  TIM_OCStructInit
+              definition:  TIM_PWMIConfig
+              definition:  TIM_PrescalerConfig
+              definition:  TIM_SelectCCDMA
+              definition:  TIM_SelectCOM
+              definition:  TIM_SelectHallSensor
+              definition:  TIM_SelectInputTrigger
+              definition:  TIM_SelectMasterSlaveMode
+              definition:  TIM_SelectOCxM
+              definition:  TIM_SelectOnePulseMode
+              definition:  TIM_SelectOutputTrigger
+              definition:  TIM_SelectSlaveMode
+              definition:  TIM_SetAutoreload
+              definition:  TIM_SetClockDivision
+              definition:  TIM_SetCompare1
+              definition:  TIM_SetCompare2
+              definition:  TIM_SetCompare3
+              definition:  TIM_SetCompare4
+              definition:  TIM_SetCounter
+              definition:  TIM_SetIC1Prescaler
+              definition:  TIM_SetIC2Prescaler
+              definition:  TIM_SetIC3Prescaler
+              definition:  TIM_SetIC4Prescaler
+              definition:  TIM_TIxExternalClockConfig
+              definition:  TIM_TimeBaseInit
+              definition:  TIM_TimeBaseStructInit
+              definition:  TIM_UpdateDisableConfig
+              definition:  TIM_UpdateRequestConfig
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\stm32f10x_usart.o.
+              reference :  RCC_APB1PeriphResetCmd
+              reference :  RCC_APB2PeriphResetCmd
+              reference :  RCC_GetClocksFreq
+              definition:  USART_ClearFlag
+              definition:  USART_ClearITPendingBit
+              definition:  USART_ClockInit
+              definition:  USART_ClockStructInit
+              definition:  USART_Cmd
+              definition:  USART_DMACmd
+              definition:  USART_DeInit
+              definition:  USART_GetFlagStatus
+              definition:  USART_GetITStatus
+              definition:  USART_HalfDuplexCmd
+              definition:  USART_ITConfig
+              definition:  USART_Init
+              definition:  USART_IrDACmd
+              definition:  USART_IrDAConfig
+              definition:  USART_LINBreakDetectLengthConfig
+              definition:  USART_LINCmd
+              definition:  USART_OneBitMethodCmd
+              definition:  USART_OverSampling8Cmd
+              definition:  USART_ReceiveData
+              definition:  USART_ReceiverWakeUpCmd
+              definition:  USART_SendBreak
+              definition:  USART_SendData
+              definition:  USART_SetAddress
+              definition:  USART_SetGuardTime
+              definition:  USART_SetPrescaler
+              definition:  USART_SmartCardCmd
+              definition:  USART_SmartCardNACKCmd
+              definition:  USART_StructInit
+              definition:  USART_WakeUpConfig
+Loading object C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\system_stm32f10x.o.
+              definition:  AHBPrescTable
+              definition:  SystemCoreClock
+              definition:  SystemCoreClockUpdate
+              definition:  SystemInit
+
+Auto library: shb_l.a -> C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\lib\shb_l.a
+Auto library: rt7M_tl.a -> C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\lib\rt7M_tl.a
+Auto library: m7M_tl.a -> C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\lib\m7M_tl.a
+Auto library: dl7M_tln.a -> C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.2\arm\lib\dl7M_tln.a
+
+Library configuration:
+
+  extra init __iar_cstart_call_ctors
+  no_inline  __DebugBreak
+  no_inline  __iar_return_from_swi
+  no_inline  __iar_semihosting
+  no_inline  __iar_sh_stdout_swo
+Selecting member cstartup_M.o(rt7M_tl.a) to define __iar_program_start.
+              reference :  __cmain
+              reference :  __vector_table
+              weak ref  :  __iar_init_core
+              weak ref  :  __iar_init_vfp
+              definition:  __iar_program_start
+Selecting member ABImemset.o(rt7M_tl.a) to define __aeabi_memset.
+              definition:  __iar_Memset
+              definition:  __iar_Memset_word
+              definition:  __aeabi_memset
+Selecting member I64DivMod.o(rt7M_tl.a) to define __aeabi_ldivmod.
+              reference :  __aeabi_ldiv0
+              definition:  __aeabi_ldivmod
+              definition:  __aeabi_uldivmod
+Selecting member ABImemcpy_unaligned.o(rt7M_tl.a) to define __iar_unaligned___aeabi_memcpy.
+              definition:  __iar_unaligned___aeabi_memcpy
+              definition:  __iar_unaligned___aeabi_memcpy4
+              definition:  __iar_unaligned___aeabi_memcpy8
+Selecting member cmain.o(rt7M_tl.a) to define __cmain.
+              weak ref  :  __iar_data_init3
+              weak ref  :  __iar_argc_argv
+              reference :  __low_level_init
+              reference :  main
+              reference :  exit
+              definition:  __cmain
+              definition:  ?main
+              definition:  _main
+              definition:  _call_main
+Selecting member I64DivZer.o(rt7M_tl.a) to define __aeabi_ldiv0.
+              definition:  __aeabi_ldiv0
+Selecting member low_level_init.o(dl7M_tln.a) to define __low_level_init.
+              definition:  __low_level_init
+Selecting member exit.o(dl7M_tln.a) to define exit.
+              reference :  _exit
+              definition:  exit
+Selecting member cexit.o(rt7M_tl.a) to define _exit.
+              weak ref  :  __call_dtors
+              weak ref  :  _Close_all
+              weak ref  :  __iar_clearlocks
+              reference :  __exit
+              definition:  _exit
+              definition:  __cexit_call_dtors
+              definition:  __cexit_closeall
+              definition:  __cexit_clearlocks
+Selecting member exit.o(shb_l.a) to define __exit.
+              weak ref  :  __iar_close_ttio
+              definition:  __exit
+Selecting member data_init.o(rt7M_tl.a) to define __iar_data_init3 (optional).
+              definition:  __iar_data_init3
+              reference :  Region$$Table$$Base
+              reference :  Region$$Table$$Limit
+Selecting member zero_init3.o(rt7M_tl.a) to define __iar_zero_init3 (optional).
+              definition:  __iar_zero_init3
+Selecting member copy_init3.o(rt7M_tl.a) to define __iar_copy_init3 (optional).
+              definition:  __iar_copy_init3
+Selecting member rle_init.o(rt7M_tl.a) to define __iar_rle_init3 (optional).
+              reference :  abort
+              definition:  __iar_rle_init3
+Selecting member packbits_init.o(rt7M_tl.a) to define __iar_packbits_init3 (optional).
+              reference :  abort
+              definition:  __iar_packbits_init3
+Selecting member lzw_init.o(rt7M_tl.a) to define __iar_lzw_init3 (optional).
+              reference :  abort
+              definition:  __iar_lzw_init3
+Selecting member bwt_init.o(rt7M_tl.a) to define __iar_bwt_init3 (optional).
+              reference :  __aeabi_memclr4
+              reference :  abort
+              definition:  __iar_bwt_init3
+Selecting member lz77_init.o(rt7M_tl.a) to define __iar_lz77_init3 (optional).
+              reference :  abort
+              definition:  __iar_lz77_init3
+Selecting member abort.o(dl7M_tln.a) to define abort (optional).
+              reference :  __exit
+              definition:  abort
+Selecting member ABImemclr4.o(rt7M_tl.a) to define __aeabi_memclr4 (optional).
+              reference :  __iar_Memset4_word
+              definition:  __aeabi_memclr4
+Selecting member ABImemset48.o(rt7M_tl.a) to define __iar_Memset4_word (optional).
+              definition:  __aeabi_memset4
+              definition:  __aeabi_memset8
+              definition:  __iar_Memset4_word
+              definition:  __iar_Memset8_word
+
+  Module specific redirects:
+
+    unaligned access redirects:
+
+      Symbol            Redirected to
+      ------            -------------
+      __aeabi_memcpy    __iar_unaligned___aeabi_memcpy
+      __aeabi_memcpy4   __iar_unaligned___aeabi_memcpy4
+      __aeabi_memcpy8   __iar_unaligned___aeabi_memcpy8
+      __aeabi_memmove   __iar_unaligned___aeabi_memmove
+      __aeabi_memmove4  __iar_unaligned___aeabi_memmove4
+      __aeabi_memmove8  __iar_unaligned___aeabi_memmove8
+      memcmp            __iar_unaligned_memcmp
+      strcmp            __iar_unaligned_strcmp
+      strcpy            __iar_unaligned_strcpy
+      strncpy           __iar_unaligned_strncpy
+
+      C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\lmic.o
+
+Resolving duplicate symbol definitions
+  Picking EXTI15_10_IRQHandler [s10 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\hal.o]
+    Suppressing EXTI15_10_IRQHandler [s58 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\startup_stm32f10x_hd.o]
+  Picking EXTI2_IRQHandler [s10 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\hal.o]
+    Suppressing EXTI2_IRQHandler [s26 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\startup_stm32f10x_hd.o]
+  Picking EXTI9_5_IRQHandler [s10 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\hal.o]
+    Suppressing EXTI9_5_IRQHandler [s41 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\startup_stm32f10x_hd.o]
+  Picking EXTI3_IRQHandler [s10 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\hal.o]
+    Suppressing EXTI3_IRQHandler [s27 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\startup_stm32f10x_hd.o]
+  Picking EXTI1_IRQHandler [s10 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\hal.o]
+    Suppressing EXTI1_IRQHandler [s25 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\startup_stm32f10x_hd.o]
+  Picking EXTI0_IRQHandler [s10 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\hal.o]
+    Suppressing EXTI0_IRQHandler [s24 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\startup_stm32f10x_hd.o]
+  Picking EXTI4_IRQHandler [s10 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\hal.o]
+    Suppressing EXTI4_IRQHandler [s28 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\startup_stm32f10x_hd.o]
+  Picking TIM4_IRQHandler [s10 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\hal.o]
+    Suppressing TIM4_IRQHandler [s48 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\startup_stm32f10x_hd.o]
+  Picking getIh [s17 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\radio.o]
+    Suppressing getIh [s21 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\lmic.o]
+  Picking getNocrc [s15 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\radio.o]
+    Suppressing getNocrc [s17 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\lmic.o]
+  Picking getSf [s9 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\radio.o]
+    Suppressing getSf [s9 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\lmic.o]
+  Picking __iar_cc._ev_t.B7R47XBFpp8 [s42 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\main.o]
+    Suppressing __iar_cc._ev_t.B7R47XBFpp8 [s563 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\lmic.o]
+  Picking getCr [s13 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\radio.o]
+    Suppressing getCr [s13 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\lmic.o]
+  Picking getBw [s11 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\radio.o]
+    Suppressing getBw [s11 C:\Users\jim_hsieh\Desktop\Lora\IBM\Workspace\examples\hello\Debug\Obj\lmic.o]
+
+Unused fragments:
+  Section name           Index  Offset     Size  Object
+  ------------           -----  ------     ----  ------
+  .iar.as_table              1     0x0  0x20000  command line/config
+  .iar.as_entries            2     0x0  0x10000  command line/config
+  .rodata                    8     0x0     0x28  aes.o
+  .rodata                    9     0x0    0x100  aes.o
+  .rodata                   10     0x0    0x400  aes.o
+  .rodata                   11     0x0    0x400  aes.o
+  .rodata                   12     0x0    0x400  aes.o
+  .rodata                   13     0x0    0x400  aes.o
+  .bss                      14     0x0     0x10  aes.o
+  .bss                      15     0x0     0xb0  aes.o
+  .text                     16     0x0     0xc8  aes.o
+                                  0xc8    0x8c4
+                                 0x98c      0x4
+                                 0x990      0x4
+                                 0x994      0x4
+                                 0x998      0x4
+                                 0x99c      0x4
+                                 0x9a0      0x4
+                                 0x9a4      0x4
+                                 0x9a8      0x4
+  __DLIB_PERTHREAD          18     0x0      0x0  aes.o
+  __DLIB_PERTHREAD_init     19     0x0      0x0  aes.o
+  .text                      8    0x80     0x20  debug.o
+                                  0xa0     0x2e
+                                  0xce     0x1c
+                                 0x100     0x20
+                                 0x120     0x1c
+                                 0x14c      0x4
+                                 0x150      0x4
+  .data                      9     0x0     0x40  debug.o
+  __DLIB_PERTHREAD          11     0x0      0x0  debug.o
+  __DLIB_PERTHREAD_init     12     0x0      0x0  debug.o
+  .rodata                   14     0x0     0x14  debug.o
+  .rodata                   15     0x0     0x10  debug.o
+  .rodata                   16     0x0     0x10  debug.o
+  .rodata                   17     0x0     0x10  debug.o
+  .rodata                   18     0x0     0x10  debug.o
+  .rodata                   19     0x0      0x8  debug.o
+  .rodata                   20     0x0      0x8  debug.o
+  .rodata                   21     0x0      0x8  debug.o
+  .rodata                   22     0x0      0xc  debug.o
+  .rodata                   23     0x0     0x10  debug.o
+  .rodata                   24     0x0      0xc  debug.o
+  .rodata                   25     0x0      0xc  debug.o
+  .rodata                   26     0x0      0x8  debug.o
+  .rodata                   27     0x0      0xc  debug.o
+  .rodata                   28     0x0      0xc  debug.o
+  .rodata                   29     0x0      0xc  debug.o
+  .text                     10   0x420     0x58  hal.o
+                                 0x52c      0x4
+                                 0x530      0x4
+  __DLIB_PERTHREAD          13     0x0      0x0  hal.o
+  __DLIB_PERTHREAD_init     14     0x0      0x0  hal.o
+  __DLIB_PERTHREAD          10     0x0      0x0  hw.o
+  __DLIB_PERTHREAD_init     11     0x0      0x0  hw.o
+  .text                      9     0x0      0x6  lmic.o
+  .text                     11     0x0      0x8  lmic.o
+  .text                     13     0x0      0x8  lmic.o
+  .text                     15     0x0     0x10  lmic.o
+  .text                     17     0x0      0x8  lmic.o
+  .text                     19     0x0      0xe  lmic.o
+  .text                     21     0x0      0x8  lmic.o
+  .text                     23     0x0      0xa  lmic.o
+  .text                     25     0x0     0x10  lmic.o
+  .text                     27     0x0     0x16  lmic.o
+  .text                     29     0x0     0x14  lmic.o
+  .text                     31     0x0     0x1c  lmic.o
+  .text                     33     0x0     0x22  lmic.o
+  .text                     35     0x0      0xc  lmic.o
+                                   0xc     0x16
+                                  0x22     0x16
+                                  0x38      0xa
+                                  0x42     0x10
+                                  0x52     0x10
+                                  0x62      0x4
+                                  0x66     0x38
+                                  0x9e     0x5e
+                                  0xfc     0x58
+                                 0x154     0x4c
+                                 0x1a0     0x24
+                                 0x1c4     0x30
+                                 0x1f4     0x1c
+                                 0x210     0x90
+                                 0x2a0     0x78
+                                 0x318     0x28
+                                 0x340    0x102
+                                 0x442     0x82
+                                 0x4c4     0x90
+                                 0x554     0xc8
+                                 0x61c     0x66
+                                 0x682     0x4c
+                                 0x6ce     0x4a
+                                 0x718      0xa
+                                 0x722     0x40
+                                 0x762     0x18
+                                 0x77a     0x46
+                                 0x7c0    0x13a
+                                 0x8fa     0x3e
+                                 0x938     0xaa
+                                 0x9e2     0x36
+                                 0xa18     0x26
+                                 0xa3e     0x62
+                                 0xaa0     0x74
+                                 0xb14     0xf0
+                                 0xc04     0x3c
+                                 0xc40     0x4c
+                                 0xc8c     0xac
+                                 0xd38      0x4
+                                 0xd3c      0x4
+                                 0xd40      0xa
+                                 0xd4a     0x12
+                                 0xd5c     0x14
+                                 0xd70     0x98
+                                 0xe08      0x4
+                                 0xe0c      0x4
+                                 0xe10     0xe8
+                                 0xef8      0x4
+                                 0xefc      0x4
+                                 0xf00      0x4
+                                 0xf04      0x4
+                                 0xf08      0x4
+                                 0xf0c      0x4
+                                 0xf10      0x4
+                                 0xf14      0x4
+                                 0xf18      0x4
+                                 0xf1c    0x5bc
+                                0x14d8      0x4
+                                0x14dc      0x4
+                                0x14e0     0x40
+                                0x1520      0x4
+                                0x1524      0x4
+                                0x1528     0x40
+                                0x1568     0x38
+                                0x15a0     0x9c
+                                0x163c      0x4
+                                0x1640      0x4
+                                0x1644      0x4
+                                0x1648      0x4
+                                0x164c      0x4
+                                0x1650      0x4
+                                0x1654      0x4
+                                0x1658      0x4
+                                0x165c      0xc
+                                0x1668    0x228
+                                0x1890     0x20
+                                0x18b0     0x14
+                                0x18c4     0x26
+                                0x18ea      0xe
+                                0x18f8     0x12
+                                0x190a      0xa
+                                0x1914     0x40
+                                0x1954     0x14
+                                0x1968     0x26
+                                0x198e      0xe
+                                0x199c     0x14
+                                0x19b0      0x4
+                                0x19b4      0x4
+                                0x19b8      0x4
+                                0x19bc    0x2fc
+                                0x1cb8      0x4
+                                0x1cbc      0x4
+                                0x1cc0     0xa4
+                                0x1d64     0x90
+                                0x1df4     0x32
+                                0x1e26     0x28
+                                0x1e4e     0x4e
+                                0x1e9c      0x4
+                                0x1ea0      0xc
+                                0x1eac     0x70
+                                0x1f1c     0x30
+                                0x1f4c      0x4
+                                0x1f50      0x4
+                                0x1f54    0x1f8
+                                0x214c      0x4
+                                0x2150      0x4
+                                0x2154      0x4
+                                0x2158      0x4
+                                0x215c    0x212
+                                0x236e     0x16
+                                0x2384     0x18
+                                0x239c      0x4
+                                0x23a0      0x4
+                                0x23a4      0x4
+                                0x23a8      0x4
+                                0x23ac      0x4
+                                0x23b0      0x4
+                                0x23b4      0x4
+                                0x23b8      0x4
+                                0x23bc      0x4
+                                0x23c0      0x4
+                                0x23c4      0x4
+                                0x23c8    0x308
+                                0x26d0      0x4
+                                0x26d4     0x1c
+                                0x26f0      0x4
+                                0x26f4      0x4
+                                0x26f8     0x16
+                                0x270e     0x20
+                                0x272e     0x80
+                                0x27b8     0x3a
+                                0x27f2     0x2a
+                                0x281c     0x48
+                                0x2864     0x18
+                                0x287c      0x4
+                                0x2880     0x18
+                                0x2898      0x4
+                                0x289c     0x74
+                                0x2910     0x28
+                                0x2938      0x4
+                                0x2940      0x4
+                                0x2944      0x4
+                                0x2948      0x4
+                                0x294c      0x4
+                                0x2950      0x4
+                                0x2954      0x4
+                                0x2958      0x4
+                                0x295c      0x4
+                                0x2960      0x4
+                                0x2964      0x4
+                                0x2968      0x4
+                                0x296c      0x4
+                                0x2970      0x4
+                                0x2974      0x4
+                                0x2978      0x4
+                                0x297c      0x4
+                                0x2980      0x4
+  .rodata                   36     0x0      0x4  lmic.o
+  .rodata                   37     0x0      0xc  lmic.o
+  .rodata                   38     0x0     0x10  lmic.o
+  .rodata                   39     0x0     0x18  lmic.o
+  .rodata                   40     0x0      0xc  lmic.o
+  .rodata                   41     0x0     0x20  lmic.o
+  .rodata                   42     0x0     0x30  lmic.o
+  __DLIB_PERTHREAD          44     0x0      0x0  lmic.o
+  __DLIB_PERTHREAD_init     45     0x0      0x0  lmic.o
+  .text                      8     0x0      0x2  main.o
+                                   0x2      0x2
+                                   0x4      0x2
+                                   0x6      0x2
+  __DLIB_PERTHREAD          10     0x0      0x0  main.o
+  __DLIB_PERTHREAD_init     11     0x0      0x0  main.o
+  .text                      8     0x0      0xa  misc.o
+                                  0x76      0xc
+                                  0x82     0x22
+                                  0xa4     0x20
+                                  0xc4      0x4
+                                  0xd8      0x4
+                                  0xdc      0x4
+                                  0xe0      0x4
+                                  0xe4      0x4
+  __DLIB_PERTHREAD          10     0x0      0x0  misc.o
+  __DLIB_PERTHREAD_init     11     0x0      0x0  misc.o
+  .text                      9    0xa0     0x40  oslmic.o
+                                  0xe0     0x58
+  __DLIB_PERTHREAD          11     0x0      0x0  oslmic.o
+  __DLIB_PERTHREAD_init     12     0x0      0x0  oslmic.o
+  .text                     19    0x4c     0x36  radio.o
+                                  0xe8     0x14
+                                 0x238     0x44
+                                 0x27c     0xce
+                                 0x34a     0x9a
+                                 0x3e4     0x2c
+                                 0x4ca     0xc8
+                                 0x592     0x34
+                                 0x6c6     0x34
+                                 0x6fa     0x18
+                                 0x860     0x3c
+  __DLIB_PERTHREAD          23     0x0      0x0  radio.o
+  __DLIB_PERTHREAD_init     24     0x0      0x0  radio.o
+  CSTACK                     6     0x0      0x0  startup_stm32f10x_hd.o
+  .text                     24     0x0      0x4  startup_stm32f10x_hd.o
+  .text                     25     0x0      0x4  startup_stm32f10x_hd.o
+  .text                     26     0x0      0x4  startup_stm32f10x_hd.o
+  .text                     27     0x0      0x4  startup_stm32f10x_hd.o
+  .text                     28     0x0      0x4  startup_stm32f10x_hd.o
+  .text                     41     0x0      0x4  startup_stm32f10x_hd.o
+  .text                     48     0x0      0x4  startup_stm32f10x_hd.o
+  .text                     58     0x0      0x4  startup_stm32f10x_hd.o
+  .text                      8     0x0     0xb4  stm32f10x_gpio.o
+                                  0xb4     0x14
+                                 0x1fe     0x10
+                                 0x20e     0x1a
+                                 0x228      0x6
+                                 0x22e     0x1a
+                                 0x248      0x6
+                                 0x254      0x6
+                                 0x25a     0x12
+                                 0x26c      0x6
+                                 0x272     0x1a
+                                 0x28c     0x1e
+                                 0x2aa      0x8
+                                 0x2b2     0x88
+                                 0x33a     0x50
+                                 0x38a      0x6
+                                 0x390      0x4
+                                 0x394      0x4
+                                 0x398      0x4
+                                 0x39c      0x4
+                                 0x3a0      0x4
+                                 0x3a4      0x4
+                                 0x3a8      0x4
+                                 0x3ac      0x4
+                                 0x3b0      0x4
+                                 0x3b4      0x4
+                                 0x3b8      0x4
+                                 0x3bc      0x4
+                                 0x3c0      0x4
+  __DLIB_PERTHREAD          10     0x0      0x0  stm32f10x_gpio.o
+  __DLIB_PERTHREAD_init     11     0x0      0x0  stm32f10x_gpio.o
+  .text                     10     0x0     0x60  stm32f10x_rcc.o
+                                  0x60     0x56
+                                  0xb6     0x40
+                                  0xf6     0x1c
+                                 0x112      0xa
+                                 0x11c     0x1c
+                                 0x138      0xa
+                                 0x142     0x14
+                                 0x156      0xa
+                                 0x160     0x14
+                                 0x174     0x14
+                                 0x188     0x16
+                                 0x19e     0x1e
+                                 0x1bc      0x6
+                                 0x1c2     0x14
+                                 0x1d6     0x2c
+                                 0x202      0x8
+                                 0x20a      0xc
+                                 0x216      0x8
+                                 0x300     0x1e
+                                 0x33c     0x1e
+                                 0x35a     0x1e
+                                 0x378     0x1e
+                                 0x396      0x8
+                                 0x39e      0x8
+                                 0x3a6      0x6
+                                 0x3ac     0x50
+                                 0x3fc      0xe
+                                 0x40a     0x1c
+                                 0x426      0x6
+                                 0x42c      0x4
+                                 0x434      0x4
+                                 0x438      0x4
+                                 0x43c      0x4
+                                 0x440      0x4
+                                 0x444      0x4
+                                 0x448      0x4
+                                 0x44c      0x4
+                                 0x450      0x4
+                                 0x454      0x4
+                                 0x458      0x4
+                                 0x46c      0x4
+                                 0x474      0x4
+                                 0x478      0x4
+                                 0x47c      0x4
+                                 0x480      0x4
+                                 0x484      0x4
+                                 0x488      0x4
+                                 0x48c      0x4
+                                 0x490      0x4
+  __DLIB_PERTHREAD          12     0x0      0x0  stm32f10x_rcc.o
+  __DLIB_PERTHREAD_init     13     0x0      0x0  stm32f10x_rcc.o
+  .text                      8     0x0    0x1e0  stm32f10x_tim.o
+                                 0x39e     0x8e
+                                 0x42c     0x6e
+                                 0x49a     0xa0
+                                 0x53a     0x8c
+                                 0x5c6     0x20
+                                 0x5e6     0x18
+                                 0x5fe     0x22
+                                 0x620     0x16
+                                 0x636     0x1e
+                                 0x670     0x22
+                                 0x6a8      0x4
+                                 0x6ac      0xa
+                                 0x6b6     0x16
+                                 0x6cc      0xc
+                                 0x6d8     0x1a
+                                 0x6f2     0x46
+                                 0x738     0x46
+                                 0x77e     0x26
+                                 0x7a4     0x18
+                                 0x7bc      0x6
+                                 0x7c2     0x12
+                                 0x7d4     0x12
+                                 0x7e6     0x3e
+                                 0x824     0x12
+                                 0x836     0x14
+                                 0x84a     0x12
+                                 0x85c     0x14
+                                 0x870     0x1c
+                                 0x88c     0x1c
+                                 0x8a8     0x1c
+                                 0x8c4     0x1c
+                                 0x906     0x12
+                                 0x918     0x14
+                                 0x92c     0x12
+                                 0x93e     0x14
+                                 0x952     0x12
+                                 0x964     0x14
+                                 0x978     0x12
+                                 0x98a     0x12
+                                 0x99c     0x12
+                                 0x9ae     0x12
+                                 0x9c0     0x12
+                                 0x9d2     0x12
+                                 0x9e4     0x14
+                                 0x9f8     0x14
+                                 0xa0c     0x14
+                                 0xa20     0x14
+                                 0xa34     0x14
+                                 0xa48     0x20
+                                 0xa68     0x20
+                                 0xa88     0x5c
+                                 0xae4     0x1c
+                                 0xb00     0x1c
+                                 0xb1c     0x1c
+                                 0xb38     0x12
+                                 0xb4a     0x12
+                                 0xb5c     0x12
+                                 0xb6e     0x12
+                                 0xb80      0x4
+                                 0xb84      0x4
+                                 0xb88      0x4
+                                 0xb8c      0x4
+                                 0xb90      0x4
+                                 0xb94      0x6
+                                 0xb9a     0x12
+                                 0xbac     0x14
+                                 0xbc0     0x12
+                                 0xbd2     0x14
+                                 0xbe6     0x12
+                                 0xbf8      0x4
+                                 0xbfc      0x4
+                                 0xc00      0x4
+                                 0xc04      0x6
+                                 0xc0a      0x4
+                                 0xc0e      0x4
+                                 0xc12     0x18
+                                 0xc2a      0x8
+                                 0xc32     0x32
+                                 0xc64      0x8
+                                 0xc6c     0x6c
+                                 0xce8     0x74
+                                 0xd68      0x4
+                                 0xd6c     0x74
+                                 0xde0      0x4
+                                 0xde4      0x4
+                                 0xde8      0x4
+                                 0xdec      0x4
+                                 0xdf0      0x4
+                                 0xdf4     0x74
+                                 0xe78      0x4
+                                 0xe7c      0x4
+                                 0xe80      0x4
+                                 0xe84      0x4
+  __DLIB_PERTHREAD          10     0x0      0x0  stm32f10x_tim.o
+  __DLIB_PERTHREAD_init     11     0x0      0x0  stm32f10x_tim.o
+  .text                      8     0x0     0x90  stm32f10x_usart.o
+                                 0x174      0x4
+                                 0x178      0x4
+                                 0x17c      0x4
+                                 0x180      0x4
+                                 0x184     0x1c
+                                 0x1a0     0x24
+                                 0x1c4     0x12
+                                 0x1f2     0x56
+                                 0x248     0x16
+                                 0x25e     0x14
+                                 0x272     0x12
+                                 0x284     0x1c
+                                 0x2a0     0x12
+                                 0x2b2     0x1c
+                                 0x2ce      0x8
+                                 0x2d6      0x8
+                                 0x2de      0xa
+                                 0x2e8     0x12
+                                 0x2fa     0x12
+                                 0x30c     0x1c
+                                 0x328     0x1c
+                                 0x344     0x1c
+                                 0x360     0x1a
+                                 0x37a     0x1c
+                                 0x396     0x12
+                                 0x3a8     0x1c
+                                 0x3c4     0x1e
+                                 0x3e2      0xc
+                                 0x3ee     0x6e
+                                 0x45c     0x24
+  __DLIB_PERTHREAD          10     0x0      0x0  stm32f10x_usart.o
+  __DLIB_PERTHREAD_init     11     0x0      0x0  stm32f10x_usart.o
+  .data                      9     0x0     0x10  system_stm32f10x.o
+  .text                     10    0x54     0x9e  system_stm32f10x.o
+                                 0x1f4      0x4
+                                 0x1f8      0x4
+                                 0x1fc      0x4
+                                 0x200      0x4
+  __DLIB_PERTHREAD          12     0x0      0x0  system_stm32f10x.o
+  __DLIB_PERTHREAD_init     13     0x0      0x0  system_stm32f10x.o
+  .cantunwind                6     0x0      0x0  I64DivMod.o
+  .text                      7     0x0     0x44  I64DivMod.o
+  .text                      6     0x0     0x20  ABImemcpy_unaligned.o
+                                  0x20     0x56
+  SHT$$PREINIT_ARRAY         6     0x0      0x0  cmain.o
+  SHT$$INIT_ARRAY            7     0x0      0x0  cmain.o
+  __DLIB_PERTHREAD           8     0x0      0x0  exit.o
+  __DLIB_PERTHREAD_init      9     0x0      0x0  exit.o
+  .text                      6     0x2      0x4  cexit.o
+                                   0x6      0x4
+                                   0xa      0x4
+  __DLIB_PERTHREAD           8     0x0      0x0  exit.o
+  __DLIB_PERTHREAD_init      9     0x0      0x0  exit.o
+  Region$$Table              8     0x0      0x0  data_init.o
+  __DLIB_PERTHREAD           9     0x0      0x0  data_init.o
+  __DLIB_PERTHREAD_init     10     0x0      0x0  data_init.o
+  __DLIB_PERTHREAD           9     0x0      0x0  zero_init3.o
+  __DLIB_PERTHREAD_init     10     0x0      0x0  zero_init3.o
+  __DLIB_PERTHREAD           9     0x0      0x0  copy_init3.o
+  __DLIB_PERTHREAD_init     10     0x0      0x0  copy_init3.o
+  __DLIB_PERTHREAD           9     0x0      0x0  rle_init.o
+  __DLIB_PERTHREAD_init     10     0x0      0x0  rle_init.o
+  __DLIB_PERTHREAD           9     0x0      0x0  packbits_init.o
+  __DLIB_PERTHREAD_init     10     0x0      0x0  packbits_init.o
+  __DLIB_PERTHREAD           9     0x0      0x0  lzw_init.o
+  __DLIB_PERTHREAD_init     10     0x0      0x0  lzw_init.o
+  __DLIB_PERTHREAD           9     0x0      0x0  bwt_init.o
+  __DLIB_PERTHREAD_init     10     0x0      0x0  bwt_init.o
+  __DLIB_PERTHREAD           9     0x0      0x0  lz77_init.o
+  __DLIB_PERTHREAD_init     10     0x0      0x0  lz77_init.o
+  __DLIB_PERTHREAD           8     0x0      0x0  abort.o
+  __DLIB_PERTHREAD_init      9     0x0      0x0  abort.o
+  .text                      6     0x0      0x0  ABImemclr4.o
+  .text                      6     0x0      0x8  ABImemset48.o

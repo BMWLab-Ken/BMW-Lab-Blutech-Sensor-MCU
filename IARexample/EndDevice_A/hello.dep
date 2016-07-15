@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2782291868</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\cmsis\arm-gcc\startup_stm32f10x_hd.s</file>
+      <file>$PROJ_DIR$\..\..\lmic\stm32_eval_spi_flash.c</file>
+      <file>$PROJ_DIR$\..\..\lmic\debug.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+      <file>$PROJ_DIR$\..\..\src\system\spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\Debug\List\misc.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi-board.pbi</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\spi-board.h</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h</file>
+      <file>$PROJ_DIR$\..\..\src\system\crypto\cmac.h</file>
+      <file>$PROJ_DIR$\..\..\src\radio\radio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\LoRaMac.o</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\uart-board.h</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h</file>
+      <file>$PROJ_DIR$\..\..\src\radio\sx1276\sx1276Regs-Fsk.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\List\aes.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f10x_gpio.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f10x_hd.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.o</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\sx1276-board.h</file>
+      <file>$PROJ_DIR$\..\..\src\radio\sx1276\sx1276Regs-LoRa.h</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\utilities.o</file>
+      <file>$PROJ_DIR$\..\..\src\system\gpio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rtc.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi-board.o</file>
+      <file>$PROJ_DIR$\..\..\lmic\platform_config.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rtc.pbi</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\cmsis\stm32f10x_conf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f10x_tim.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1276.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_pwr.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.o</file>
+      <file>$PROJ_DIR$\..\..\src\system\i2c.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1276-board.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\..\..\lmic\stm32_eval_spi_flash.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\LoRaMac-board.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.o</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\src\mac\LoRaMac.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\cmac.o</file>
+      <file>$PROJ_DIR$\Debug\List\board.i</file>
+      <file>$PROJ_DIR$\Debug\List\stm32_eval_spi_flash.i</file>
+      <file>$PROJ_DIR$\Debug\List\debug.i</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f10x_rtc.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\fifo.pbi</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f10x_usart.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\utilities.pbi</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\utilities.h</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f10x_rcc.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32_eval_spi_flash.o</file>
+      <file>$PROJ_DIR$\..\..\src\radio\sx1276\sx1276.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\debug.pbi</file>
+      <file>$PROJ_DIR$\..\..\src\system\uart.h</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\pinName-ioe.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\LoRaMac.pbi</file>
+      <file>$PROJ_DIR$\..\..\src\system\crypto\aes.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\LoRaMacCrypto.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\main.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f10x_spi.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\Debug\List\delay.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32_eval_spi_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\src\system\delay.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\debug.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_exti.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f10x.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\misc.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Debug\List\system_stm32f10x.i</file>
+      <file>$PROJ_DIR$\Debug\List\uart.i</file>
+      <file>$PROJ_DIR$\Debug\List\spi-board.i</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\gpio-board.h</file>
+      <file>$PROJ_DIR$\Debug\List\timer.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_rcc.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\cmsis\stm32f10x.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_tim.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_spi.o</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\inc\misc.h</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\cmsis\system_stm32f10x.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\board.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\spi-board.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\sx1276-board.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\timer-board.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\misc.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\utilities.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c</file>
+      <file>$PROJ_DIR$\..\..\src\mac\LoRaMacCrypto.c</file>
+      <file>$PROJ_DIR$\..\..\src\mac\LoRaMac.c</file>
+      <file>$PROJ_DIR$\..\..\src\system\crypto\aes.c</file>
+      <file>$PROJ_DIR$\..\..\src\radio\sx1276\sx1276.c</file>
+      <file>$PROJ_DIR$\..\..\src\system\crypto\cmac.c</file>
+      <file>$PROJ_DIR$\..\..\src\system\fifo.c</file>
+      <file>$PROJ_DIR$\..\..\src\system\delay.c</file>
+      <file>$PROJ_DIR$\..\..\src\system\gpio.c</file>
+      <file>$PROJ_DIR$\..\..\src\system\timer.c</file>
+      <file>$PROJ_DIR$\..\..\src\system\uart.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\fifo.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cmac.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_tim.pbi</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\rtc-board.h</file>
+      <file>$PROJ_DIR$\..\..\src\system\fifo.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer-board.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hello.pbd</file>
+      <file>$PROJ_DIR$\Debug\List\timer-board.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1276.o</file>
+      <file>$PROJ_DIR$\Debug\List\gpio.i</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\pinName-board.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\lmic\ibm_lmic.h</file>
+      <file>$PROJ_DIR$\Debug\List\cmac.i</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_usart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f10x_exti.i</file>
+      <file>$PROJ_DIR$\Debug\Exe\hello.out</file>
+      <file>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h</file>
+      <file>$PROJ_DIR$\Debug\List\hello.map</file>
+      <file>$PROJ_DIR$\Debug\List\sx1276.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\Debug\List\fifo.i</file>
+      <file>$PROJ_DIR$\Debug\List\LoRaMac.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+      <file>$PROJ_DIR$\Debug\List\LoRaMacCrypto.i</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\src\mac\LoRaMacCrypto.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\delay.o</file>
+      <file>$PROJ_DIR$\..\..\src\system\timer.h</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\board.h</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\timer-board.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\Debug\List\stm32f10x_pwr.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\sx1276-board.i</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer-board.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1276-board.o</file>
+      <file>$PROJ_DIR$\..\..\src\boards\Bleeper-76\cmsis\system_stm32f10x.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\lmic\debug.h</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\config\linker\ST\stm32f103xC.icf</file>
+      <file>$PROJ_DIR$\Debug\List\utilities.i</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\aes.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\stm32f10x_pwr.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\hello.hex</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\Bleeper-76\cmsis\arm-gcc\startup_stm32f10x_hd.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\lmic\stm32_eval_spi_flash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57 68</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64 92 139 138 170 136 178 67 4 14 19 28 145 157 82 11 26 147 87 20 105 100 167 91 5 166 32 45 69 168 71 48 23 49 185 88 169 34 177 52 61 27 39 149 163 29 103 9 154 104 72 8 16 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48 167 157 91 138 19 49 185 88 23 87 139 67 169 5 34 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\lmic\debug.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 69 34 177 100 16 157 167 91 32 71 49 185 138 169 92 9 103 5 166 45 168 48 23 88 139 149 29 104 72 37 67 64 82 4 11 136 26 14 147 87 20 39 163 154 8 137 179 178 170 52 105 61 28 145 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179 167 157 91 138 19 49 185 88 23 87 139 67 169 5 34 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 153 155</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\Bleeper-76\cmsis\system_stm32f10x.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 89</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 20 105 92 170 28 177 178 19 138 87 52 61 39 149 49 23 185 88 163 29 103 9 154 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100 20 92 138 19 49 185 88 23 87 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\Bleeper-76\board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170 67 19 14 100 4 64 136 139 138 92 52 157 82 11 26 147 87 20 61 27 91 5 166 32 45 69 168 71 48 23 49 185 88 169 34 177 178 105 28 145 167 39 149 163 29 103 9 154 104 72 8 16 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 157 91 138 19 49 185 88 23 87 139 67 169 5 34 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\Bleeper-76\spi-board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138 136 139 92 64 67 4 14 19 154 61 157 82 11 26 147 87 20 39 163 103 27 8 91 5 100 166 32 45 69 168 71 48 23 49 185 88 169 34 177 149 29 9 104 145 167 178 170 52 105 28 72 16 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 157 91 138 19 49 185 88 23 87 139 67 169 5 34 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\Bleeper-76\sx1276-board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 173 176</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 170 19 100 92 147 138 20 157 82 26 87 139 52 69 67 64 4 136 14 61 27 91 5 166 32 45 168 71 48 23 49 185 88 169 34 177 178 105 28 145 167 39 149 163 29 103 9 154 104 72 8 16 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 157 91 138 19 49 185 88 23 87 139 67 169 5 34 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\Bleeper-76\timer-board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 142 174</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138 19 170 100 32 91 71 139 52 168 47 23 88 69 61 27 92 167 79 49 185 5 166 45 48 169 34 177 178 105 28 145 187 87 157 67 64 82 4 11 136 26 14 147 20 39 149 163 29 103 9 154 104 72 8 16 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 187 138 47 19 49 185 88 23 87 79 167 157 91 139 67 169 5 34 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\misc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6 90</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154 92 49 185 20 149 163 103 100 177 39 138 23 88 29 9 104 178 19 87 170 52 105 61 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104 100 20 92 138 19 49 185 88 23 87 178 170 163 149 177 39 29 52 103 105 9 61 154 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\mcu\stm32\utilities.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 182 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170 32 92 100 138 91 71 87 19 69 52 167 139 169 5 166 45 168 48 20 61 27 67 64 23 49 185 88 157 82 4 11 136 26 14 147 34 177 178 105 28 145 39 149 163 29 103 9 154 104 72 8 16 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91 138 19 49 185 88 23 87 139 67 169 167 157 5 34 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 154 20 92 49 185 149 163 103 177 39 138 23 88 29 9 104 178 19 87 170 52 105 61 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 100 20 92 138 19 49 185 88 23 87 178 170 163 149 177 39 52 103 105 9 61 154 28 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 92 105 20 170 28 9 177 178 19 138 87 52 61 103 39 149 49 23 185 88 163 29 154 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103 100 20 92 138 19 49 185 88 23 87 178 170 163 149 177 39 29 52 105 9 61 154 28 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 171 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 92 105 20 170 28 9 177 178 19 138 87 52 61 39 149 49 23 185 88 163 29 103 154 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105 100 20 92 138 19 49 185 88 23 87 178 170 163 149 177 39 29 52 103 9 61 154 28 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92 138 170 178 100 19 52 20 87 61 177 105 28 9 39 149 49 23 185 88 163 29 103 154 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9 100 20 92 138 19 49 185 88 23 87 178 170 163 149 177 39 29 52 103 105 61 154 28 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 177 105 170 28 20 92 178 19 138 87 52 61 15 39 149 49 23 185 88 163 29 103 9 154 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 100 20 92 138 19 49 185 88 23 87 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 100 178 138 170 20 52 92 87 61 9 177 105 28 39 149 49 23 185 88 163 29 103 154 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61 100 20 92 138 19 49 185 88 23 87 178 170 163 149 177 39 29 52 103 105 9 154 28 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100 170 92 28 20 105 9 177 178 19 138 87 52 61 154 39 149 49 23 185 88 163 29 103 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 154 100 20 92 138 19 49 185 88 23 87 178 170 163 149 177 39 29 52 103 105 9 61 28 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\boards\mcu\stm32\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 62 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138 177 39 9 23 88 29 104 100 20 92 149 49 185 163 103 154 28 178 19 87 170 52 105 61</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 28 100 20 92 138 19 49 185 88 23 87 178 170 163 149 177 39 29 52 103 105 9 61 154 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\mac\LoRaMacCrypto.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 162 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 185 67 49 138 14 19 104 4 20 72 10 64 136 139 149 29 100 23 88 157 92 82 11 26 147 9 16 71 167 74 164 87 91 5 166 32 45 69 168 48 169 34 177 39 163 103 154 8 137 178 170 52 105 61 28 145 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91 138 19 49 185 88 23 87 139 167 157 67 169 5 34 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147 74 10 164</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\mac\LoRaMac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 159 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 87 154 136 139 79 64 11 138 67 4 14 20 39 163 103 167 54 157 92 82 26 147 149 29 9 104 100 27 187 164 23 49 185 88 47 91 5 166 32 45 69 168 71 48 169 34 177 178 170 52 105 61 28 72 145 8 16 137 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91 138 19 49 185 88 23 87 139 187 47 79 167 157 67 169 5 34 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147 164 54 50</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\system\crypto\aes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 184</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 138 74 139 19 23 185 91 49 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91 138 19 49 185 88 23 87 139 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\radio\sx1276\sx1276.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 156 143</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 154 166 8 19 168 23 69 47 49 185 5 45 48 20 39 163 103 167 88 138 91 100 32 71 169 92 149 29 9 104 72 16 11 26 79 87 139 34 157 67 64 82 4 136 14 147 177 178 170 52 105 61 28 145 27 187 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 187 138 47 19 49 185 88 23 87 79 5 139 34 167 157 91 67 169 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\system\crypto\cmac.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87 19 138 5 10 74 139 34 49 23 185 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74 10 5 138 19 49 185 88 23 87 139 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\system\fifo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 158 133</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138 88 157 185 92 19 49 23 87 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 137 157 92 138 19 49 185 88 23 87</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\system\delay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80 165</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170 69 100 19 34 177 91 32 71 49 185 138 169 52 5 166 45 168 48 23 88 139 61 27 92 157 67 64 82 4 11 136 26 14 147 87 20 178 105 28 145 167 39 149 163 29 103 9 154 104 72 8 16 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 157 91 138 19 49 185 88 23 87 139 67 169 5 34 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\system\gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 144 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 87 19 26 139 16 82 92 11 147 138 20 9 71 67 64 4 136 14 149 29 104 100 72 96 91 5 166 32 45 69 168 48 23 49 185 88 169 34 177 39 163 103 154 8 137 167 178 170 52 105 61 28 145 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 157 91 138 19 49 185 88 23 87 139 67 169 5 34 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147 96</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\system\timer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97 3</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170 136 100 64 139 138 92 67 4 14 19 52 168 157 82 11 26 147 87 20 61 27 91 5 166 32 45 69 71 48 23 49 185 88 169 34 177 178 105 28 145 167 39 149 163 29 103 9 154 104 72 8 16 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 157 91 138 19 49 185 88 23 87 139 67 169 5 34 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\src\system\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 161</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139 170 138 64 92 100 136 67 4 14 19 52 71 157 82 11 26 147 87 20 61 27 91 5 166 32 45 69 168 48 23 49 185 88 169 34 177 178 105 28 145 167 39 149 163 29 103 9 154 104 72 8 16 137</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 167 157 91 138 19 49 185 88 23 87 139 67 169 5 34 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 76 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 178 137 167 139 48 170 87 19 45 28 145 50 67 54 138 79 166 168 177 105 100 8 187 91 11 179 34 32 69 71 52 61 16 157 49 23 185 88 47 169 92 64 82 4 136 26 14 147 20 39 149 163 29 103 9 154 104 72 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5 138 19 49 185 88 23 87 139 34 187 47 79 67 169 91 167 157 92 100 20 178 170 163 149 177 39 29 52 103 105 9 61 154 28 104 64 166 82 32 145 72 4 8 45 11 69 16 27 136 168 26 71 137 14 48 147 54 50 179</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\hello.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 155</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 181 184 30 55 83 165 133 25 13 51 86 90 36 24 68 22 35 43 98 33 102 101 44 176 143 89 174 3 161 31 183 84 180 17</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
